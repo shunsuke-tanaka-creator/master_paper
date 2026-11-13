@@ -13,10 +13,10 @@
 章ごとに1ファイル。節・小節は見出しとして各ファイルに用意してあるので、その下に書き足していく。
 
 - 第1章 序論: [chapters/01-introduction.md](chapters/01-introduction.md)
-- 第2章 関連研究と状態推定の基盤技術: [chapters/02-related-work.md](chapters/02-related-work.md)
-- 第3章 キーボードを介した生活データ・主観情報取得システム: [chapters/03-system.md](chapters/03-system.md)
-- 第4章 多時間尺度の個人状態推定モデル: [chapters/04-model.md](chapters/04-model.md)
-- 第5章 評価実験と考察: [chapters/05-evaluation.md](chapters/05-evaluation.md)
+- 第2章 ライフログ研究の展開と生活状態モデルの数理的基盤: [chapters/02-related-work.md](chapters/02-related-work.md)
+- 第3章 生活情報の観測と学習データ構築: [chapters/03-system.md](chapters/03-system.md)
+- 第4章 三階層生活状態モデルと個人適応アルゴリズム: [chapters/04-model.md](chapters/04-model.md)
+- 第5章 探索的予備研究の評価計画と考察観点: [chapters/05-evaluation.md](chapters/05-evaluation.md)
 - 第6章 結論: [chapters/06-conclusion.md](chapters/06-conclusion.md)
 - 謝辞: [chapters/07-acknowledgements.md](chapters/07-acknowledgements.md)
 - 参考文献: [references.bib](references.bib)（BibTeXを正本とし、本文では `[@キー]` で引用する）
