@@ -3,6 +3,11 @@
 修士論文の原稿を少しずつ構築するためのリポジトリ。
 対象システムは `switch_bot_python`（収集・学習・推論サーバー）と `communication-keyboard`（iOS研究用キーボード）。
 
+## 関連リポジトリ
+
+- 収集・学習・推論サーバー: [switch_bot_python](https://github.com/shunsuke-tanaka-creator/switch_bot_python)
+- iOS研究用キーボード: [communication-keyboard](https://github.com/shunsuke-tanaka-creator/communication-keyboard)
+
 ## 使用モデル概要
 
 本文の「提案手法」「実装」で参照するためのメモ。詳細は各リポジトリのコードと `docs/` を正とする。
