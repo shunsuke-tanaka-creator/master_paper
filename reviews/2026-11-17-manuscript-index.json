@@ -1,0 +1,3216 @@
+{
+  "review_date_jst": "2026-11-17",
+  "commits": {
+    "master_paper": "4d4be49ede531bd621d1fa13013ccef5268968fc",
+    "switch_bot_python": "22acb9dce043088b90e709a3ad0aaa1128dd87f3",
+    "communication-keyboard": "018408b281758f8b9d921d6e67924404d1b171c3"
+  },
+  "files": [
+    {
+      "path": "chapters/01-introduction.md",
+      "line_count": 65,
+      "sha256": "ed01b93e7412f5b9bd21ce2b93cf9ccb9aaac1da95fa288a20cd9c70df0475d6"
+    },
+    {
+      "path": "chapters/02-related-work.md",
+      "line_count": 239,
+      "sha256": "ac40d1f5bf7e7f7a29f17167e70ad547c55e0a2401452c083aa131ee17189f14"
+    },
+    {
+      "path": "chapters/03-system.md",
+      "line_count": 154,
+      "sha256": "5b730fb1e7898a8cfd8fe7f3215b711ef6d1a0fa25296094e26c1649dbc5ca4c"
+    },
+    {
+      "path": "chapters/04-model.md",
+      "line_count": 377,
+      "sha256": "95a6de9a5e14b454a81875ab4dff4137be85c9b932aa406d7d64f2a40ca0f966"
+    },
+    {
+      "path": "chapters/05-evaluation.md",
+      "line_count": 127,
+      "sha256": "b5f66cce8277ecbfd5872d278607aa2157f2d07c3573d014469fd6c1706a4fdd"
+    },
+    {
+      "path": "chapters/06-conclusion.md",
+      "line_count": 19,
+      "sha256": "3070a08245a30bd1ed9fc2ebc743719bdc298d7be344a7cb0395fc63e3cf2ca1"
+    },
+    {
+      "path": "chapters/07-acknowledgements.md",
+      "line_count": 3,
+      "sha256": "ca1a6e95c80211721d558d6c2093262e40aecfa625cc009457ee05e4b1631d15"
+    }
+  ],
+  "pdf": {
+    "file": "sample/thesis_sample_20261117.pdf",
+    "physical_pages": 61,
+    "sha256": "7f9cfaa7d92f415c2b1031d0b603a1e8e8f38dc6c9948d195a868a0db39fc228",
+    "page_number_rule": "表紙を除き、PDF物理ページ-1が印刷ページ",
+    "included_chapters": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "headings": [
+    {
+      "file": "chapters/01-introduction.md",
+      "line": 1,
+      "heading": "第1章 序論",
+      "pdf_physical_pages": [
+        5
+      ],
+      "pdf_printed_pages": [
+        4
+      ]
+    },
+    {
+      "file": "chapters/01-introduction.md",
+      "line": 7,
+      "heading": "1.1 身近な歩数計測から始まる日常生活の記録",
+      "pdf_physical_pages": [
+        5
+      ],
+      "pdf_printed_pages": [
+        4
+      ]
+    },
+    {
+      "file": "chapters/01-introduction.md",
+      "line": 15,
+      "heading": "1.2 活動量計測からライフログへの展開",
+      "pdf_physical_pages": [
+        6
+      ],
+      "pdf_printed_pages": [
+        5
+      ]
+    },
+    {
+      "file": "chapters/01-introduction.md",
+      "line": 25,
+      "heading": "1.3 ライフログによる生活状態理解の課題",
+      "pdf_physical_pages": [
+        7
+      ],
+      "pdf_printed_pages": [
+        6
+      ]
+    },
+    {
+      "file": "chapters/01-introduction.md",
+      "line": 37,
+      "heading": "1.4 本研究の着眼点と目的",
+      "pdf_physical_pages": [
+        8
+      ],
+      "pdf_printed_pages": [
+        7
+      ]
+    },
+    {
+      "file": "chapters/01-introduction.md",
+      "line": 51,
+      "heading": "1.5 研究課題と評価方針",
+      "pdf_physical_pages": [
+        9
+      ],
+      "pdf_printed_pages": [
+        8
+      ]
+    },
+    {
+      "file": "chapters/01-introduction.md",
+      "line": 61,
+      "heading": "1.6 本論文の構成",
+      "pdf_physical_pages": [
+        10
+      ],
+      "pdf_printed_pages": [
+        9
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 1,
+      "heading": "第2章 ライフログ研究の展開と生活状態モデルの数理的基盤",
+      "pdf_physical_pages": [
+        11
+      ],
+      "pdf_printed_pages": [
+        10
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 5,
+      "heading": "2.1 歩数計測と活動量評価",
+      "pdf_physical_pages": [
+        11
+      ],
+      "pdf_printed_pages": [
+        10
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 11,
+      "heading": "2.1.1 身体活動の連続計測",
+      "pdf_physical_pages": [
+        12
+      ],
+      "pdf_printed_pages": [
+        11
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 25,
+      "heading": "2.1.2 複数情報源による活動量の文脈化",
+      "pdf_physical_pages": [
+        12
+      ],
+      "pdf_printed_pages": [
+        11
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 33,
+      "heading": "2.2 活動量計測からライフログ研究への発展",
+      "pdf_physical_pages": [
+        13
+      ],
+      "pdf_printed_pages": [
+        12
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 39,
+      "heading": "2.2.1 ライフログの観測対象と時間尺度",
+      "pdf_physical_pages": [
+        13
+      ],
+      "pdf_printed_pages": [
+        12
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 54,
+      "heading": "2.2.2 主観状態の取得と回答負担",
+      "pdf_physical_pages": [
+        14
+      ],
+      "pdf_printed_pages": [
+        13
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 62,
+      "heading": "2.3 ライフログによる生活状態の表現",
+      "pdf_physical_pages": [
+        14
+      ],
+      "pdf_printed_pages": [
+        13
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 66,
+      "heading": "2.3.1 多時間尺度の状態表現",
+      "pdf_physical_pages": [
+        15
+      ],
+      "pdf_printed_pages": [
+        14
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 74,
+      "heading": "2.3.2 トポロジカルマッピングの原理",
+      "pdf_physical_pages": [
+        15
+      ],
+      "pdf_printed_pages": [
+        14
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 90,
+      "heading": "2.3.3 GrowingMapによる状態空間の成長",
+      "pdf_physical_pages": [
+        16
+      ],
+      "pdf_printed_pages": [
+        15
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 130,
+      "heading": "2.4 時系列推定と個人適応の基盤",
+      "pdf_physical_pages": [
+        18
+      ],
+      "pdf_printed_pages": [
+        17
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 134,
+      "heading": "2.4.1 LSTMのゲートとセル状態",
+      "pdf_physical_pages": [
+        18
+      ],
+      "pdf_printed_pages": [
+        17
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 154,
+      "heading": "2.4.2 状態保持とTruncated BPTT",
+      "pdf_physical_pages": [
+        19
+      ],
+      "pdf_printed_pages": [
+        18
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 170,
+      "heading": "2.4.3 自己報告による個人適応",
+      "pdf_physical_pages": [
+        19
+      ],
+      "pdf_printed_pages": [
+        18
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 178,
+      "heading": "2.4.4 自己教師あり学習による表現形成",
+      "pdf_physical_pages": [
+        20
+      ],
+      "pdf_printed_pages": [
+        19
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 186,
+      "heading": "2.4.5 階層モデルと部分プーリング",
+      "pdf_physical_pages": [
+        20
+      ],
+      "pdf_printed_pages": [
+        19
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 203,
+      "heading": "2.5 本人の解釈を保持する情報モデル",
+      "pdf_physical_pages": [
+        21
+      ],
+      "pdf_printed_pages": [
+        20
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 207,
+      "heading": "2.5.1 お天気分とナラティブポートフォリオ",
+      "pdf_physical_pages": [
+        21
+      ],
+      "pdf_printed_pages": [
+        20
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 215,
+      "heading": "2.5.2 PMTTによる情報の分離",
+      "pdf_physical_pages": [
+        22
+      ],
+      "pdf_printed_pages": [
+        21
+      ]
+    },
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 231,
+      "heading": "2.6 既存研究の課題と本研究の位置付け",
+      "pdf_physical_pages": [
+        22
+      ],
+      "pdf_printed_pages": [
+        21
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 1,
+      "heading": "第3章 生活情報の観測と学習データ構築",
+      "pdf_physical_pages": [
+        24
+      ],
+      "pdf_printed_pages": [
+        23
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 5,
+      "heading": "3.1 観測過程の定義",
+      "pdf_physical_pages": [
+        24
+      ],
+      "pdf_printed_pages": [
+        23
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 21,
+      "heading": "3.1.1 観測対象と同意範囲",
+      "pdf_physical_pages": [
+        25
+      ],
+      "pdf_printed_pages": [
+        24
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 27,
+      "heading": "3.1.2 時刻と系列の単位",
+      "pdf_physical_pages": [
+        25
+      ],
+      "pdf_printed_pages": [
+        24
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 33,
+      "heading": "3.2 キーボード由来の観測変数",
+      "pdf_physical_pages": [
+        26
+      ],
+      "pdf_printed_pages": [
+        25
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 37,
+      "heading": "3.2.1 打鍵系列の表現",
+      "pdf_physical_pages": [
+        26
+      ],
+      "pdf_printed_pages": [
+        25
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 53,
+      "heading": "3.2.2 文章特徴の表現",
+      "pdf_physical_pages": [
+        27
+      ],
+      "pdf_printed_pages": [
+        26
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 68,
+      "heading": "3.3 任意同意の生活情報",
+      "pdf_physical_pages": [
+        28
+      ],
+      "pdf_printed_pages": [
+        27
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 72,
+      "heading": "3.3.1 歩数と予定情報",
+      "pdf_physical_pages": [
+        28
+      ],
+      "pdf_printed_pages": [
+        27
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 80,
+      "heading": "3.3.2 開閉センサ状態",
+      "pdf_physical_pages": [
+        28
+      ],
+      "pdf_printed_pages": [
+        27
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 88,
+      "heading": "3.4 教師ラベルの定義",
+      "pdf_physical_pages": [
+        29
+      ],
+      "pdf_printed_pages": [
+        28
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 92,
+      "heading": "3.4.1 活動ラベルと5尺度",
+      "pdf_physical_pages": [
+        29
+      ],
+      "pdf_printed_pages": [
+        28
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 106,
+      "heading": "3.4.2 回答対象時刻と取得遅延",
+      "pdf_physical_pages": [
+        30
+      ],
+      "pdf_printed_pages": [
+        29
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 118,
+      "heading": "3.5 学習系列の構築アルゴリズム",
+      "pdf_physical_pages": [
+        30
+      ],
+      "pdf_printed_pages": [
+        29
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 122,
+      "heading": "3.5.1 時間整列と階層別集約",
+      "pdf_physical_pages": [
+        30
+      ],
+      "pdf_printed_pages": [
+        29
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 136,
+      "heading": "3.5.2 欠測・未同意・無操作の符号化",
+      "pdf_physical_pages": [
+        31
+      ],
+      "pdf_printed_pages": [
+        30
+      ]
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 148,
+      "heading": "3.5.3 データ取得手段と保存形式",
+      "pdf_physical_pages": [
+        32
+      ],
+      "pdf_printed_pages": [
+        31
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 1,
+      "heading": "第4章 三階層生活状態モデルと個人適応アルゴリズム",
+      "pdf_physical_pages": [
+        33
+      ],
+      "pdf_printed_pages": [
+        32
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 5,
+      "heading": "4.1 生活状態推定問題の定式化",
+      "pdf_physical_pages": [
+        33
+      ],
+      "pdf_printed_pages": [
+        32
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 9,
+      "heading": "4.1.1 入力・出力変数",
+      "pdf_physical_pages": [
+        33
+      ],
+      "pdf_printed_pages": [
+        32
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 21,
+      "heading": "4.1.2 三つの時間階層",
+      "pdf_physical_pages": [
+        34
+      ],
+      "pdf_printed_pages": [
+        33
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 27,
+      "heading": "4.2 LSTMの状態更新",
+      "pdf_physical_pages": [
+        34
+      ],
+      "pdf_printed_pages": [
+        33
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 31,
+      "heading": "4.2.1 ゲートの計算",
+      "pdf_physical_pages": [
+        35
+      ],
+      "pdf_printed_pages": [
+        34
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 46,
+      "heading": "4.2.2 セル状態とhidden状態の更新",
+      "pdf_physical_pages": [
+        35
+      ],
+      "pdf_printed_pages": [
+        34
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 56,
+      "heading": "4.3 三階層の状態遷移",
+      "pdf_physical_pages": [
+        35
+      ],
+      "pdf_printed_pages": [
+        34
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 64,
+      "heading": "4.3.1 Micro状態の遷移",
+      "pdf_physical_pages": [
+        36
+      ],
+      "pdf_printed_pages": [
+        35
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 74,
+      "heading": "4.3.2 Meso状態の遷移",
+      "pdf_physical_pages": [
+        37
+      ],
+      "pdf_printed_pages": [
+        36
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 84,
+      "heading": "4.3.3 Macro状態の遷移と出力",
+      "pdf_physical_pages": [
+        37
+      ],
+      "pdf_printed_pages": [
+        36
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 106,
+      "heading": "4.4 生活状態のトポロジカルマッピング",
+      "pdf_physical_pages": [
+        38
+      ],
+      "pdf_printed_pages": [
+        37
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 110,
+      "heading": "4.4.1 マスク付き勝者割当てと逐次平均更新",
+      "pdf_physical_pages": [
+        38
+      ],
+      "pdf_printed_pages": [
+        37
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 128,
+      "heading": "4.4.2 ノード生成と接続更新",
+      "pdf_physical_pages": [
+        39
+      ],
+      "pdf_printed_pages": [
+        38
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 148,
+      "heading": "4.4.3 観測状態マップと三階層推定の対応",
+      "pdf_physical_pages": [
+        40
+      ],
+      "pdf_printed_pages": [
+        39
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 154,
+      "heading": "4.5 損失関数と多目的学習",
+      "pdf_physical_pages": [
+        40
+      ],
+      "pdf_printed_pages": [
+        39
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 158,
+      "heading": "4.5.1 活動分類損失",
+      "pdf_physical_pages": [
+        40
+      ],
+      "pdf_printed_pages": [
+        39
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 168,
+      "heading": "4.5.2 5尺度のHuber損失と観測マスク",
+      "pdf_physical_pages": [
+        41
+      ],
+      "pdf_printed_pages": [
+        40
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 178,
+      "heading": "4.5.3 統合損失と正則化",
+      "pdf_physical_pages": [
+        41
+      ],
+      "pdf_printed_pages": [
+        40
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 194,
+      "heading": "4.6 状態保持とTBPTTによる学習",
+      "pdf_physical_pages": [
+        42
+      ],
+      "pdf_printed_pages": [
+        41
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 198,
+      "heading": "4.6.1 状態の引継ぎと初期化条件",
+      "pdf_physical_pages": [
+        42
+      ],
+      "pdf_printed_pages": [
+        41
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 208,
+      "heading": "4.6.2 TBPTTの学習手順",
+      "pdf_physical_pages": [
+        42
+      ],
+      "pdf_printed_pages": [
+        41
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 218,
+      "heading": "4.6.3 推定継続時の状態管理",
+      "pdf_physical_pages": [
+        43
+      ],
+      "pdf_printed_pages": [
+        42
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 224,
+      "heading": "4.7 PMTTと個人適応",
+      "pdf_physical_pages": [
+        43
+      ],
+      "pdf_printed_pages": [
+        42
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 228,
+      "heading": "4.7.1 観測・推定・根拠・修正の分離",
+      "pdf_physical_pages": [
+        43
+      ],
+      "pdf_printed_pages": [
+        42
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 240,
+      "heading": "4.7.2 個人履歴による条件付け",
+      "pdf_physical_pages": [
+        44
+      ],
+      "pdf_printed_pages": [
+        43
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 250,
+      "heading": "4.7.3 参加者内モデルのオンライン微調整評価",
+      "pdf_physical_pages": [
+        45
+      ],
+      "pdf_printed_pages": [
+        44
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 260,
+      "heading": "4.7.4 休憩提案への接続",
+      "pdf_physical_pages": [
+        45
+      ],
+      "pdf_printed_pages": [
+        44
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 266,
+      "heading": "4.8 運動提案：トポロジカル状態に基づく歩数不足判定とMETs換算",
+      "pdf_physical_pages": [
+        45
+      ],
+      "pdf_printed_pages": [
+        44
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 270,
+      "heading": "4.8.1 状態の定義と状態内歩数",
+      "pdf_physical_pages": [
+        46
+      ],
+      "pdf_printed_pages": [
+        45
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 280,
+      "heading": "4.8.2 通常値と不足の判定",
+      "pdf_physical_pages": [
+        46
+      ],
+      "pdf_printed_pages": [
+        45
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 294,
+      "heading": "4.8.3 METs換算と候補生成",
+      "pdf_physical_pages": [
+        46
+      ],
+      "pdf_printed_pages": [
+        45
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 304,
+      "heading": "4.8.4 PMTTへの根拠記録と提示",
+      "pdf_physical_pages": [
+        47
+      ],
+      "pdf_printed_pages": [
+        46
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 310,
+      "heading": "4.9 階層型自己教師あり事前学習（SSL）",
+      "pdf_physical_pages": [
+        47
+      ],
+      "pdf_printed_pages": [
+        46
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 327,
+      "heading": "4.10 部分プーリングによる個人差のモデル化",
+      "pdf_physical_pages": [
+        48
+      ],
+      "pdf_printed_pages": [
+        47
+      ]
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 347,
+      "heading": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）",
+      "pdf_physical_pages": [
+        49
+      ],
+      "pdf_printed_pages": [
+        48
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 1,
+      "heading": "第5章 探索的予備研究の評価計画と考察観点",
+      "pdf_physical_pages": [
+        52
+      ],
+      "pdf_printed_pages": [
+        51
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 5,
+      "heading": "5.1 評価目的と実験設計",
+      "pdf_physical_pages": [
+        52
+      ],
+      "pdf_printed_pages": [
+        51
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 9,
+      "heading": "5.1.1 参加者・実験環境・実施手順",
+      "pdf_physical_pages": [
+        52
+      ],
+      "pdf_printed_pages": [
+        51
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 15,
+      "heading": "5.1.2 休憩提案の無作為化",
+      "pdf_physical_pages": [
+        53
+      ],
+      "pdf_printed_pages": [
+        52
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 21,
+      "heading": "5.2 実現可能性と回答負担の評価",
+      "pdf_physical_pages": [
+        53
+      ],
+      "pdf_printed_pages": [
+        52
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 25,
+      "heading": "5.2.1 データ取得の継続性",
+      "pdf_physical_pages": [
+        53
+      ],
+      "pdf_printed_pages": [
+        52
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 31,
+      "heading": "5.2.2 自己報告の回答状況",
+      "pdf_physical_pages": [
+        54
+      ],
+      "pdf_printed_pages": [
+        53
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 37,
+      "heading": "5.2.3 回答負担",
+      "pdf_physical_pages": [
+        54
+      ],
+      "pdf_printed_pages": [
+        53
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 43,
+      "heading": "5.3 推定性能の評価計画",
+      "pdf_physical_pages": [
+        54
+      ],
+      "pdf_printed_pages": [
+        53
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 47,
+      "heading": "5.3.1 時間順分割",
+      "pdf_physical_pages": [
+        55
+      ],
+      "pdf_printed_pages": [
+        54
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 61,
+      "heading": "5.3.2 活動推定の指標",
+      "pdf_physical_pages": [
+        55
+      ],
+      "pdf_printed_pages": [
+        54
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 74,
+      "heading": "5.3.3 5尺度推定の指標",
+      "pdf_physical_pages": [
+        56
+      ],
+      "pdf_printed_pages": [
+        55
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 91,
+      "heading": "5.4 アブレーションとアルゴリズム比較",
+      "pdf_physical_pages": [
+        56
+      ],
+      "pdf_printed_pages": [
+        55
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 95,
+      "heading": "5.4.1 入力情報のアブレーション",
+      "pdf_physical_pages": [
+        56
+      ],
+      "pdf_printed_pages": [
+        55
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 101,
+      "heading": "5.4.2 階層化と状態保持のアブレーション",
+      "pdf_physical_pages": [
+        57
+      ],
+      "pdf_printed_pages": [
+        56
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 107,
+      "heading": "5.4.3 個人適応のアブレーション",
+      "pdf_physical_pages": [
+        57
+      ],
+      "pdf_printed_pages": [
+        56
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 113,
+      "heading": "5.5 考察の観点",
+      "pdf_physical_pages": [
+        57
+      ],
+      "pdf_printed_pages": [
+        56
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 117,
+      "heading": "5.5.1 数理モデルと観測設計の対応",
+      "pdf_physical_pages": [
+        58
+      ],
+      "pdf_printed_pages": [
+        57
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 121,
+      "heading": "5.5.2 本研究の貢献",
+      "pdf_physical_pages": [
+        58
+      ],
+      "pdf_printed_pages": [
+        57
+      ]
+    },
+    {
+      "file": "chapters/05-evaluation.md",
+      "line": 125,
+      "heading": "5.5.3 適用範囲と限界",
+      "pdf_physical_pages": [
+        58
+      ],
+      "pdf_printed_pages": [
+        57
+      ]
+    },
+    {
+      "file": "chapters/06-conclusion.md",
+      "line": 1,
+      "heading": "第6章 結論",
+      "pdf_physical_pages": [],
+      "pdf_printed_pages": []
+    },
+    {
+      "file": "chapters/06-conclusion.md",
+      "line": 5,
+      "heading": "6.1 本研究の総括",
+      "pdf_physical_pages": [],
+      "pdf_printed_pages": []
+    },
+    {
+      "file": "chapters/06-conclusion.md",
+      "line": 9,
+      "heading": "6.2 数理モデルと学習アルゴリズムの成果",
+      "pdf_physical_pages": [],
+      "pdf_printed_pages": []
+    },
+    {
+      "file": "chapters/06-conclusion.md",
+      "line": 13,
+      "heading": "6.3 探索的評価の位置付け",
+      "pdf_physical_pages": [],
+      "pdf_printed_pages": []
+    },
+    {
+      "file": "chapters/06-conclusion.md",
+      "line": 17,
+      "heading": "6.4 今後の課題",
+      "pdf_physical_pages": [],
+      "pdf_printed_pages": []
+    },
+    {
+      "file": "chapters/07-acknowledgements.md",
+      "line": 1,
+      "heading": "謝辞",
+      "pdf_physical_pages": [],
+      "pdf_printed_pages": []
+    }
+  ],
+  "display_formulas": [
+    {
+      "id": "M01",
+      "file": "chapters/02-related-work.md",
+      "start_line": 15,
+      "end_line": 17,
+      "section": "2.1.1 身体活動の連続計測",
+      "text": "\\Delta P_{p,k}=\\max\\{0,P_p(t_k)-P_p(t_{k-1})\\}"
+    },
+    {
+      "id": "M02",
+      "file": "chapters/02-related-work.md",
+      "start_line": 45,
+      "end_line": 50,
+      "section": "2.2.1 ライフログの観測対象と時間尺度",
+      "text": "\\boldsymbol{r}_{p,u}\n=A_1\\bigl(\\{\\boldsymbol{x}_{p,k}:\\pi_1(k)=u\\}\\bigr),\\qquad\n\\boldsymbol{d}_{p,d}\n=A_2\\bigl(\\{\\boldsymbol{r}_{p,u}:\\pi_2(u)=d\\}\\bigr)"
+    },
+    {
+      "id": "M03",
+      "file": "chapters/02-related-work.md",
+      "start_line": 80,
+      "end_line": 84,
+      "section": "2.3.2 トポロジカルマッピングの原理",
+      "text": "\\boldsymbol{w}_j^{\\,\\mathrm{new}}\n=\\boldsymbol{w}_j+\\varepsilon h_{bj}\n(\\boldsymbol{x}-\\boldsymbol{w}_j)"
+    },
+    {
+      "id": "M04",
+      "file": "chapters/02-related-work.md",
+      "start_line": 94,
+      "end_line": 101,
+      "section": "2.3.3 GrowingMapによる状態空間の成長",
+      "text": "d_m(\\boldsymbol{x},\\boldsymbol{w}_j)=\n\\begin{cases}\n\\sqrt{|C_j|^{-1}\\displaystyle\\sum_{k\\in C_j}(x_k-w_{jk})^2},\n& |C_j|\\ge3\\ \\land\\ \\ell(\\boldsymbol{x})=\\ell(\\boldsymbol{w}_j),\\\\\n+\\infty,&\\text{それ以外}\n\\end{cases}"
+    },
+    {
+      "id": "M05",
+      "file": "chapters/02-related-work.md",
+      "start_line": 107,
+      "end_line": 111,
+      "section": "2.3.3 GrowingMapによる状態空間の成長",
+      "text": "n_{jk}\\leftarrow n_{jk}+1,\\qquad\nw_{jk}\\leftarrow w_{jk}\n+\\frac{x_k-w_{jk}}{n_{jk}}"
+    },
+    {
+      "id": "M06",
+      "file": "chapters/02-related-work.md",
+      "start_line": 117,
+      "end_line": 120,
+      "section": "2.3.3 GrowingMapによる状態空間の成長",
+      "text": "\\widehat{\\Pr}(z_i=b\\mid z_{i-1}=a)\n=\\frac{N_{ab}}{\\sum_cN_{ac}}"
+    },
+    {
+      "id": "M07",
+      "file": "chapters/02-related-work.md",
+      "start_line": 138,
+      "end_line": 148,
+      "section": "2.4.1 LSTMのゲートとセル状態",
+      "text": "\\begin{aligned}\n\\boldsymbol{i}_t&=\\sigma(W_i\\boldsymbol{x}_t+U_i\\boldsymbol{h}_{t-1}+\\boldsymbol{b}_i),\\\\\n\\boldsymbol{f}_t&=\\sigma(W_f\\boldsymbol{x}_t+U_f\\boldsymbol{h}_{t-1}+\\boldsymbol{b}_f),\\\\\n\\boldsymbol{o}_t&=\\sigma(W_o\\boldsymbol{x}_t+U_o\\boldsymbol{h}_{t-1}+\\boldsymbol{b}_o),\\\\\n\\widetilde{\\boldsymbol{c}}_t&=\\tanh(W_g\\boldsymbol{x}_t+U_g\\boldsymbol{h}_{t-1}+\\boldsymbol{b}_g),\\\\\n\\boldsymbol{c}_t&=\\boldsymbol{f}_t\\odot\\boldsymbol{c}_{t-1}\n+\\boldsymbol{i}_t\\odot\\widetilde{\\boldsymbol{c}}_t,\\\\\n\\boldsymbol{h}_t&=\\boldsymbol{o}_t\\odot\\tanh(\\boldsymbol{c}_t)\n\\end{aligned}"
+    },
+    {
+      "id": "M08",
+      "file": "chapters/02-related-work.md",
+      "start_line": 158,
+      "end_line": 162,
+      "section": "2.4.2 状態保持とTruncated BPTT",
+      "text": "\\boldsymbol{s}_{j+1}^{\\mathrm{start}}\n=\\operatorname{sg}(\\boldsymbol{s}_{j}^{\\mathrm{end}}),\\qquad\n\\frac{\\partial\\operatorname{sg}(\\boldsymbol{s})}{\\partial\\boldsymbol{s}}=0"
+    },
+    {
+      "id": "M09",
+      "file": "chapters/02-related-work.md",
+      "start_line": 192,
+      "end_line": 197,
+      "section": "2.4.5 階層モデルと部分プーリング",
+      "text": "\\widehat{\\boldsymbol{y}}_{p,t}\n=f_\\theta(\\boldsymbol{x}_{p,t})+\\boldsymbol{b}_p,\\qquad\n\\mathcal{J}=\\sum_{p,t}\\mathcal{L}_{p,t}\n+\\lambda\\sum_p\\|\\boldsymbol{b}_p\\|_2^2"
+    },
+    {
+      "id": "M10",
+      "file": "chapters/02-related-work.md",
+      "start_line": 219,
+      "end_line": 223,
+      "section": "2.5.2 PMTTによる情報の分離",
+      "text": "\\mathcal{O}\\xrightarrow{\\mathrm{used\\ by}}\\mathcal{I},\\qquad\n\\mathcal{R}\\xrightarrow{\\mathrm{supports}}\\mathcal{I}\\ \\text{または提案},\\qquad\n\\mathcal{C}\\xrightarrow{\\mathrm{targets}}\\mathcal{I}\\ \\text{または対象区間}"
+    },
+    {
+      "id": "M11",
+      "file": "chapters/03-system.md",
+      "start_line": 11,
+      "end_line": 13,
+      "section": "3.1 観測過程の定義",
+      "text": "e_i=(p_i,a_i,\\mathrm{id}_i,t_i^{\\mathrm{occ}},t_i^{\\mathrm{recv}},v_i,\\kappa_i)."
+    },
+    {
+      "id": "M12",
+      "file": "chapters/03-system.md",
+      "start_line": 41,
+      "end_line": 45,
+      "section": "3.2.1 打鍵系列の表現",
+      "text": "\\bar\\delta_B=\\frac{1}{n-1}\\sum_{j=2}^{n}\\delta_j,\\qquad\n\\delta_B^{\\max}=\\max_{2\\le j\\le n}\\delta_j,\\qquad\nN_B^{\\mathrm{pause}}=\\sum_{j=2}^{n}\\mathbf1[\\delta_j>2\\ {\\rm 秒}]."
+    },
+    {
+      "id": "M13",
+      "file": "chapters/03-system.md",
+      "start_line": 59,
+      "end_line": 62,
+      "section": "3.2.2 文章特徴の表現",
+      "text": "e(w)=\\frac{E(w)R}{\\max(\\|E(w)R\\|_2,10^{-8})},\\qquad\nR_{jk}\\sim\\mathcal N(0,1/32)"
+    },
+    {
+      "id": "M14",
+      "file": "chapters/03-system.md",
+      "start_line": 98,
+      "end_line": 102,
+      "section": "3.4.1 活動ラベルと5尺度",
+      "text": "m_k^y=\\mathbf1[y_k\\text{ が数値であり }1\\le y_k\\le5],\\qquad\n\\tilde y_k=\n\\begin{cases}y_k&m_k^y=1,\\\\3&m_k^y=0.\\end{cases}"
+    },
+    {
+      "id": "M15",
+      "file": "chapters/03-system.md",
+      "start_line": 112,
+      "end_line": 114,
+      "section": "3.4.2 回答対象時刻と取得遅延",
+      "text": "\\mathcal Y_p(T)=\\{i:p_i=p,\\ t_i^{\\mathrm{target}}<T,\\ t_i^{\\mathrm{available}}<T\\}."
+    },
+    {
+      "id": "M16",
+      "file": "chapters/03-system.md",
+      "start_line": 126,
+      "end_line": 128,
+      "section": "3.5.1 時間整列と階層別集約",
+      "text": "\\boldsymbol x=[\\boldsymbol v;\\boldsymbol m;\\boldsymbol e]\\in\\mathbb R^{98}."
+    },
+    {
+      "id": "M17",
+      "file": "chapters/03-system.md",
+      "start_line": 142,
+      "end_line": 144,
+      "section": "3.5.2 欠測・未同意・無操作の符号化",
+      "text": "x_j^{\\mathrm{norm}}=m_j\\frac{v_j-\\mu_j}{\\max(\\sigma_j,0.1)}"
+    },
+    {
+      "id": "M18",
+      "file": "chapters/04-model.md",
+      "start_line": 15,
+      "end_line": 17,
+      "section": "4.1.1 入力・出力変数",
+      "text": "(\\pi,\\hat y^{\\mathrm{cur}},\\hat y^{\\mathrm{day}})=f_\\theta(\\mathcal H_p(t)),\\qquad \\sum_{a\\in\\mathcal A}\\pi_a=1."
+    },
+    {
+      "id": "M19",
+      "file": "chapters/04-model.md",
+      "start_line": 35,
+      "end_line": 42,
+      "section": "4.2.1 ゲートの計算",
+      "text": "\\begin{aligned}\ni_k&=\\sigma(W_i v_k+U_i h_{k-1}+b_i),\\\\\nf_k&=\\sigma(W_f v_k+U_f h_{k-1}+b_f),\\\\\no_k&=\\sigma(W_o v_k+U_o h_{k-1}+b_o),\\\\\ng_k&=\\tanh(W_g v_k+U_g h_{k-1}+b_g).\n\\end{aligned}"
+    },
+    {
+      "id": "M20",
+      "file": "chapters/04-model.md",
+      "start_line": 50,
+      "end_line": 52,
+      "section": "4.2.2 セル状態とhidden状態の更新",
+      "text": "c_k=f_k\\odot c_{k-1}+i_k\\odot g_k,\\qquad h_k=o_k\\odot\\tanh(c_k)."
+    },
+    {
+      "id": "M21",
+      "file": "chapters/04-model.md",
+      "start_line": 68,
+      "end_line": 70,
+      "section": "4.3.1 Micro状態の遷移",
+      "text": "s^\\mu_{d,u,k}=\\operatorname{LSTM}_\\mu(x_{d,u,k},s^\\mu_{d,u,k-1}),\\qquad w_{d,u}=h^\\mu_{d,u,K_{d,u}}."
+    },
+    {
+      "id": "M22",
+      "file": "chapters/04-model.md",
+      "start_line": 78,
+      "end_line": 80,
+      "section": "4.3.2 Meso状態の遷移",
+      "text": "s^m_{d,u}=\\operatorname{LSTM}_m(w_{d,u},s^m_{d,u-1}),\\qquad q_d=h^m_{d,U_d}."
+    },
+    {
+      "id": "M23",
+      "file": "chapters/04-model.md",
+      "start_line": 88,
+      "end_line": 90,
+      "section": "4.3.3 Macro状態の遷移と出力",
+      "text": "v^M=[P(r_{27}),\\ldots,P(r_0),q_0,\\ldots,q_{d_*}],\\quad s^M_j=\\operatorname{LSTM}_M(v^M_j,s^M_{j-1}),\\quad H=h^M_{28+d_*+1}."
+    },
+    {
+      "id": "M24",
+      "file": "chapters/04-model.md",
+      "start_line": 94,
+      "end_line": 96,
+      "section": "4.3.3 Macro状態の遷移と出力",
+      "text": "D=\\tanh(W_D[q_{d_*};H]+b_D),\\qquad C=\\tanh(W_C[w_{d_*,u_*};D;H]+b_C)."
+    },
+    {
+      "id": "M25",
+      "file": "chapters/04-model.md",
+      "start_line": 100,
+      "end_line": 102,
+      "section": "4.3.3 Macro状態の遷移と出力",
+      "text": "\\hat y^{\\mathrm{cur}}=1+4\\sigma(W_{\\mathrm{cur}}C'+b_{\\mathrm{cur}}),\\quad \\hat y^{\\mathrm{day}}=1+4\\sigma(W_{\\mathrm{day}}D'+b_{\\mathrm{day}}),\\quad \\pi=\\operatorname{softmax}(W_AC'+b_A)."
+    },
+    {
+      "id": "M26",
+      "file": "chapters/04-model.md",
+      "start_line": 114,
+      "end_line": 116,
+      "section": "4.4.1 マスク付き勝者割当てと逐次平均更新",
+      "text": "d_i(z)=\\begin{cases}\\sqrt{|J_i|^{-1}\\sum_{j\\in J_i}(z_j-a_{ij})^2},&|J_i|\\ge3\\ \\land\\ \\ell(z)=\\ell_i,\\\\+\\infty,&\\text{その他},\\end{cases}\\qquad i^*=\\arg\\min_i d_i(z)."
+    },
+    {
+      "id": "M27",
+      "file": "chapters/04-model.md",
+      "start_line": 122,
+      "end_line": 124,
+      "section": "4.4.1 マスク付き勝者割当てと逐次平均更新",
+      "text": "n'_{ij}=n_{ij}+1,\\qquad a'_{ij}=a_{ij}+\\frac{z_j-a_{ij}}{n'_{ij}}\\quad(j\\in O_z)."
+    },
+    {
+      "id": "M28",
+      "file": "chapters/04-model.md",
+      "start_line": 132,
+      "end_line": 134,
+      "section": "4.4.2 ノード生成と接続更新",
+      "text": "|O_z|\\ge3\\ \\land\\ \\bigl(N=0\\ \\lor\\ \\min_i d_i(z)>\\rho\\bigr)\\ \\land\\ N<N_{\\max}."
+    },
+    {
+      "id": "M29",
+      "file": "chapters/04-model.md",
+      "start_line": 140,
+      "end_line": 142,
+      "section": "4.4.2 ノード生成と接続更新",
+      "text": "C'_{ij}=C_{ij}+\\mathbf1\\{i\\ne j,\\ 0\\le t_j-t_i\\le12\\mathrm{時間}\\},\\qquad T_{ij}=\\frac{C_{ij}}{\\sum_kC_{ik}}."
+    },
+    {
+      "id": "M30",
+      "file": "chapters/04-model.md",
+      "start_line": 162,
+      "end_line": 164,
+      "section": "4.5.1 活動分類損失",
+      "text": "\\ell^A_e=-\\sum_{a\\in\\mathcal A}\\mathbf1\\{a=a_e\\}\\log\\pi_{e,a}=-\\log\\pi_{e,a_e}."
+    },
+    {
+      "id": "M31",
+      "file": "chapters/04-model.md",
+      "start_line": 172,
+      "end_line": 174,
+      "section": "4.5.2 5尺度のHuber損失と観測マスク",
+      "text": "H_1(r)=\\begin{cases}\\frac12r^2,&|r|\\le1,\\\\|r|-\\frac12,&|r|>1,\\end{cases}\\qquad \\ell^S_e=\\frac{\\sum_{j=1}^5m_{ej}H_1(\\hat y^{s_e}_{ej}-y_{ej})}{\\sum_{j=1}^5m_{ej}}."
+    },
+    {
+      "id": "M32",
+      "file": "chapters/04-model.md",
+      "start_line": 182,
+      "end_line": 184,
+      "section": "4.5.3 統合損失と正則化",
+      "text": "\\mathcal L_{\\mathrm{sup}}=\\frac1{|E|}\\sum_{e\\in E}\\left[0.2\\mathbf1\\{s_e=A\\}\\ell^A_e+\\mathbf1\\{s_e\\in\\{\\mathrm{cur},\\mathrm{day}\\}\\}\\ell^S_e\\right]."
+    },
+    {
+      "id": "M33",
+      "file": "chapters/04-model.md",
+      "start_line": 188,
+      "end_line": 190,
+      "section": "4.5.3 統合損失と正則化",
+      "text": "\\theta_{q+1}=(1-\\eta\\lambda)\\theta_q-\\eta\\frac{\\hat m_q}{\\sqrt{\\hat v_q}+\\epsilon},\\qquad \\eta=0.001,\\quad\\lambda=0.001."
+    },
+    {
+      "id": "M34",
+      "file": "chapters/04-model.md",
+      "start_line": 202,
+      "end_line": 204,
+      "section": "4.6.1 状態の引継ぎと初期化条件",
+      "text": "s^l_{q+1,0}=g_q^l\\operatorname{stopgrad}(s^l_{q,\\mathrm{end}}),\\qquad g_q^l\\in\\{0,1\\}."
+    },
+    {
+      "id": "M35",
+      "file": "chapters/04-model.md",
+      "start_line": 212,
+      "end_line": 214,
+      "section": "4.6.2 TBPTTの学習手順",
+      "text": "\\tilde s_{q,\\mathrm{end}}=\\operatorname{stopgrad}(s_{q,\\mathrm{end}}),\\qquad \\frac{\\partial\\tilde s_{q,\\mathrm{end}}}{\\partial s_{q,\\mathrm{end}}}=0,\\qquad \\nabla_\\theta\\mathcal L_q\\text{ はチャンク }q\\text{ 内のみを逆伝播する}."
+    },
+    {
+      "id": "M36",
+      "file": "chapters/04-model.md",
+      "start_line": 232,
+      "end_line": 234,
+      "section": "4.7.1 観測・推定・根拠・修正の分離",
+      "text": "M_{p,t}=(O_{p,t},I_{p,t},E_{p,t},R_{p,t}),\\quad I_{p,t}=f_{\\theta_v}(O_{p,\\le t},B_p(t)),\\quad E_{p,t}\\xrightarrow{\\mathrm{supports}}I_{p,t},\\quad R_{p,t}\\xrightarrow{\\mathrm{corrects}}I_{p,t}."
+    },
+    {
+      "id": "M37",
+      "file": "chapters/04-model.md",
+      "start_line": 244,
+      "end_line": 246,
+      "section": "4.7.2 個人履歴による条件付け",
+      "text": "v_{pgj}=\\mathbf1\\{n_{pgj}\\ge3\\},\\quad a_{pgj}=v_{pgj}\\bar y_{pgj}+(1-v_{pgj})3,\\quad P_p=\\tanh(W_P[a_{pgj},v_{pgj}]_{g,j}+b_P)."
+    },
+    {
+      "id": "M38",
+      "file": "chapters/04-model.md",
+      "start_line": 254,
+      "end_line": 256,
+      "section": "4.7.3 参加者内モデルのオンライン微調整評価",
+      "text": "U_p(t)=\\{e: e\\notin\\mathrm{Used},\\ t_e<t,\\ r_e<t,\\ e\\text{ は更新対象期間内}\\}."
+    },
+    {
+      "id": "M39",
+      "file": "chapters/04-model.md",
+      "start_line": 274,
+      "end_line": 276,
+      "section": "4.8.1 状態の定義と状態内歩数",
+      "text": "\\Delta P_i=\\max(0,P_i-P_{i-1}),\\qquad S_{s,d}=\\sum_{i:z_i=s,\\ \\operatorname{day}(i)=d,\\ i\\in V}\\Delta P_i."
+    },
+    {
+      "id": "M40",
+      "file": "chapters/04-model.md",
+      "start_line": 284,
+      "end_line": 286,
+      "section": "4.8.2 通常値と不足の判定",
+      "text": "m_s=\\operatorname{median}\\{S_{s,d}\\},\\quad q_s=Q_{0.25}\\{S_{s,d}\\},\\quad D=\\max(0,m_s-S_{s,\\mathrm{today}})."
+    },
+    {
+      "id": "M41",
+      "file": "chapters/04-model.md",
+      "start_line": 288,
+      "end_line": 290,
+      "section": "4.8.2 通常値と不足の判定",
+      "text": "\\mathrm{low}=\\mathbf1\\{S_{s,\\mathrm{today}}<q_s\\ \\land\\ D\\ge500\\ \\land\\ D\\ge0.25m_s\\}."
+    },
+    {
+      "id": "M42",
+      "file": "chapters/04-model.md",
+      "start_line": 298,
+      "end_line": 300,
+      "section": "4.8.3 METs換算と候補生成",
+      "text": "T_{\\mathrm{walk}}=D/100,\\qquad T_a=T_{\\mathrm{walk}}\\frac{3.0}{\\mathrm{METs}_a},\\qquad \\tilde T_a=\\max\\left(5,5\\left\\lceil T_a/5\\right\\rceil\\right)."
+    },
+    {
+      "id": "M43",
+      "file": "chapters/04-model.md",
+      "start_line": 318,
+      "end_line": 321,
+      "section": "4.9 階層型自己教師あり事前学習（SSL）",
+      "text": "\\mathcal M(P,T,M)=\\frac{\\sum_jM_j(P_j-T_j)^2}{\\sum_jM_j},\\qquad\n\\mathcal L_{\\mathrm{SSL}}=\\mathcal M(R,x,M_x)+\\mathcal M(R_H,r,M_H)+\\mathcal M(F,z^+,M^+)."
+    },
+    {
+      "id": "M44",
+      "file": "chapters/04-model.md",
+      "start_line": 331,
+      "end_line": 333,
+      "section": "4.10 部分プーリングによる個人差のモデル化",
+      "text": "\\hat y_{p,e}^{s}=f_\\theta^{s}(x_e)+b_p,\\qquad b_p\\sim\\mathcal N(0,\\tau^2I)."
+    },
+    {
+      "id": "M45",
+      "file": "chapters/04-model.md",
+      "start_line": 339,
+      "end_line": 341,
+      "section": "4.10 部分プーリングによる個人差のモデル化",
+      "text": "\\ell_e^{\\mathrm{pool}}=\\frac1{m_e}\\sum_{j=1}^5m_{ej}\\left[(f_\\theta^{s_e}(x_e)_j+b_{pj}-y_{ej})^2+\\frac{\\lambda_b b_{pj}^2}{\\max(n_{pj},1)}\\right],\\quad m_e=\\sum_jm_{ej},\\quad\\lambda_b=10."
+    },
+    {
+      "id": "M46",
+      "file": "chapters/04-model.md",
+      "start_line": 353,
+      "end_line": 355,
+      "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）",
+      "text": "B_j^{\\mathrm{mean}}(t)=|A_j(t)|^{-1}\\sum_{e\\in A_j(t)}y_{ej},\\qquad B_j^{\\mathrm{last}}(t)=y_{e^*j},\\quad e^*=\\operatorname*{arg\\,max}_{e\\in A_j(t)}(t_e,r_e,\\mathrm{id}_e)."
+    },
+    {
+      "id": "M47",
+      "file": "chapters/04-model.md",
+      "start_line": 361,
+      "end_line": 363,
+      "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）",
+      "text": "Q_j=\\mathbf1\\{N_j^{\\mathrm{tr}}\\ge10,\\ N_j^v\\ge10,\\ D_j^v\\ge3\\},\\qquad W_j=\\mathbf1\\{Q_j=1,\\ L_j\\le B_j-0.1,\\ L_j\\le0.9B_j\\}."
+    },
+    {
+      "id": "M48",
+      "file": "chapters/04-model.md",
+      "start_line": 371,
+      "end_line": 373,
+      "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）",
+      "text": "R_j=\\mathbf1\\{|H_j|=10,\\ \\operatorname{MAE}_L(H_j)\\ge\\min(\\operatorname{MAE}_M(H_j),\\operatorname{MAE}_P(H_j))+0.1\\}."
+    },
+    {
+      "id": "M49",
+      "file": "chapters/05-evaluation.md",
+      "start_line": 51,
+      "end_line": 55,
+      "section": "5.3.1 時間順分割",
+      "text": "\\mathcal D_{\\mathrm{tr}}=\\{i:t_i<T_1,\\ r_i<T_1\\},\\quad\n\\mathcal D_{\\mathrm{va}}=\\{i:T_1\\le t_i<T_2,\\ r_i<T_2\\},\\quad\n\\mathcal D_{\\mathrm{te}}=\\{i:t_i\\ge T_2\\}."
+    },
+    {
+      "id": "M50",
+      "file": "chapters/05-evaluation.md",
+      "start_line": 65,
+      "end_line": 70,
+      "section": "5.3.2 活動推定の指標",
+      "text": "P_c=\\frac{TP_c}{TP_c+FP_c},\\quad\nR_c=\\frac{TP_c}{TP_c+FN_c},\\quad\nF1_c=\\frac{2TP_c}{2TP_c+FP_c+FN_c},\\quad\n\\mathrm{macroF1}_p=\\frac{1}{|\\mathcal C_p|}\\sum_{c\\in\\mathcal C_p}F1_c."
+    },
+    {
+      "id": "M51",
+      "file": "chapters/05-evaluation.md",
+      "start_line": 78,
+      "end_line": 85,
+      "section": "5.3.3 5尺度推定の指標",
+      "text": "\\mathrm{MAE}_{pk}=\n\\frac{\\sum_{i\\in\\mathcal D_{\\mathrm{te},p}}m_{ik}|\\hat y_{ik}-y_{ik}|}\n{\\sum_{i\\in\\mathcal D_{\\mathrm{te},p}}m_{ik}},\\qquad\n\\mathrm{MAE}_{\\mathrm{macro}}=\n\\frac1{|\\mathcal P_*|}\\sum_{p\\in\\mathcal P_*}\n\\frac1{|\\mathcal K_p|}\\sum_{k\\in\\mathcal K_p}\\mathrm{MAE}_{pk}."
+    }
+  ],
+  "images": [
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 126,
+      "label": "閾値ベースのGrowingMapと時間遷移",
+      "target": "../figures/fig_growingmap.png",
+      "exists": true,
+      "sha256": "40804f8ed3c071ac16aab366dfaa42676f98852cc95f501709fcfe0b7b4be16c"
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 17,
+      "label": "生活情報の収集と研究処理の構成",
+      "target": "../figures/fig_system_overview.png",
+      "exists": true,
+      "sha256": "c87bfec3602a2fde9d7021bf85c0e4fe5b986ea1ade1361b73824fb5ac6fc1b4"
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 60,
+      "label": "三階層LSTMの入力、要約と状態引継ぎ",
+      "target": "../figures/fig_hierarchical_lstm.png",
+      "exists": true,
+      "sha256": "898573b2d4f68c1093d017d494135620dbc47f93e2881e72089800536a80b325"
+    }
+  ],
+  "bibliography": {
+    "keys": [
+      "hochreiter1997lstm",
+      "gers2000forget",
+      "williams1990tbptt",
+      "fritzke1995gng",
+      "gurrin2014lifelogging",
+      "reimers2019sentencebert",
+      "wang2020minilm",
+      "chen2020simclr",
+      "he2022mae",
+      "devlin2019bert",
+      "gelman2007multilevel",
+      "huber1964robust",
+      "loshchilov2019adamw",
+      "ainsworth2011compendium",
+      "tudorlocke2011steps",
+      "tudorlocke2019cadence",
+      "stone1994momentary",
+      "shiffman2008ema",
+      "eisele2022burden"
+    ],
+    "duplicate_keys": [],
+    "undefined_citations": [],
+    "uncited_entries": [],
+    "citations": {
+      "tudorlocke2011steps": [
+        {
+          "file": "chapters/01-introduction.md",
+          "line": 9,
+          "section": "1.1 身近な歩数計測から始まる日常生活の記録"
+        },
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 7,
+          "section": "2.1 歩数計測と活動量評価"
+        }
+      ],
+      "gurrin2014lifelogging": [
+        {
+          "file": "chapters/01-introduction.md",
+          "line": 17,
+          "section": "1.2 活動量計測からライフログへの展開"
+        },
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 35,
+          "section": "2.2 活動量計測からライフログ研究への発展"
+        }
+      ],
+      "shiffman2008ema": [
+        {
+          "file": "chapters/01-introduction.md",
+          "line": 33,
+          "section": "1.3 ライフログによる生活状態理解の課題"
+        },
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 56,
+          "section": "2.2.2 主観状態の取得と回答負担"
+        },
+        {
+          "file": "chapters/05-evaluation.md",
+          "line": 23,
+          "section": "5.2 実現可能性と回答負担の評価"
+        }
+      ],
+      "hochreiter1997lstm": [
+        {
+          "file": "chapters/01-introduction.md",
+          "line": 41,
+          "section": "1.4 本研究の着眼点と目的"
+        },
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 136,
+          "section": "2.4.1 LSTMのゲートとセル状態"
+        },
+        {
+          "file": "chapters/04-model.md",
+          "line": 29,
+          "section": "4.2 LSTMの状態更新"
+        }
+      ],
+      "tudorlocke2019cadence": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 23,
+          "section": "2.1.1 身体活動の連続計測"
+        }
+      ],
+      "ainsworth2011compendium": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 23,
+          "section": "2.1.1 身体活動の連続計測"
+        },
+        {
+          "file": "chapters/04-model.md",
+          "line": 296,
+          "section": "4.8.3 METs換算と候補生成"
+        }
+      ],
+      "stone1994momentary": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 56,
+          "section": "2.2.2 主観状態の取得と回答負担"
+        }
+      ],
+      "eisele2022burden": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 60,
+          "section": "2.2.2 主観状態の取得と回答負担"
+        },
+        {
+          "file": "chapters/05-evaluation.md",
+          "line": 23,
+          "section": "5.2 実現可能性と回答負担の評価"
+        }
+      ],
+      "fritzke1995gng": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 86,
+          "section": "2.3.2 トポロジカルマッピングの原理"
+        },
+        {
+          "file": "chapters/04-model.md",
+          "line": 108,
+          "section": "4.4 生活状態のトポロジカルマッピング"
+        }
+      ],
+      "gers2000forget": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 136,
+          "section": "2.4.1 LSTMのゲートとセル状態"
+        }
+      ],
+      "williams1990tbptt": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 156,
+          "section": "2.4.2 状態保持とTruncated BPTT"
+        },
+        {
+          "file": "chapters/04-model.md",
+          "line": 196,
+          "section": "4.6 状態保持とTBPTTによる学習"
+        }
+      ],
+      "devlin2019bert": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 180,
+          "section": "2.4.4 自己教師あり学習による表現形成"
+        },
+        {
+          "file": "chapters/04-model.md",
+          "line": 312,
+          "section": "4.9 階層型自己教師あり事前学習（SSL）"
+        }
+      ],
+      "he2022mae": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 180,
+          "section": "2.4.4 自己教師あり学習による表現形成"
+        },
+        {
+          "file": "chapters/04-model.md",
+          "line": 312,
+          "section": "4.9 階層型自己教師あり事前学習（SSL）"
+        }
+      ],
+      "chen2020simclr": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 180,
+          "section": "2.4.4 自己教師あり学習による表現形成"
+        }
+      ],
+      "gelman2007multilevel": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 188,
+          "section": "2.4.5 階層モデルと部分プーリング"
+        },
+        {
+          "file": "chapters/04-model.md",
+          "line": 329,
+          "section": "4.10 部分プーリングによる個人差のモデル化"
+        }
+      ],
+      "reimers2019sentencebert": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 235,
+          "section": "2.6 既存研究の課題と本研究の位置付け"
+        },
+        {
+          "file": "chapters/03-system.md",
+          "line": 57,
+          "section": "3.2.2 文章特徴の表現"
+        }
+      ],
+      "wang2020minilm": [
+        {
+          "file": "chapters/02-related-work.md",
+          "line": 235,
+          "section": "2.6 既存研究の課題と本研究の位置付け"
+        }
+      ],
+      "huber1964robust": [
+        {
+          "file": "chapters/04-model.md",
+          "line": 170,
+          "section": "4.5.2 5尺度のHuber損失と観測マスク"
+        }
+      ],
+      "loshchilov2019adamw": [
+        {
+          "file": "chapters/04-model.md",
+          "line": 186,
+          "section": "4.5.3 統合損失と正則化"
+        }
+      ]
+    }
+  },
+  "term_occurrences": {
+    "PMTT": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 49,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 65,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 215,
+        "section": "2.5.2 PMTTによる情報の分離"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 217,
+        "section": "2.5.2 PMTTによる情報の分離"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 229,
+        "section": "2.5.2 PMTTによる情報の分離"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 237,
+        "section": "2.6 既存研究の課題と本研究の位置付け"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 3,
+        "section": "第4章 三階層生活状態モデルと個人適応アルゴリズム"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 224,
+        "section": "4.7 PMTTと個人適応"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 226,
+        "section": "4.7 PMTTと個人適応"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 238,
+        "section": "4.7.1 観測・推定・根拠・修正の分離"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 304,
+        "section": "4.8.4 PMTTへの根拠記録と提示"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 306,
+        "section": "4.8.4 PMTTへの根拠記録と提示"
+      },
+      {
+        "file": "chapters/06-conclusion.md",
+        "line": 11,
+        "section": "6.2 数理モデルと学習アルゴリズムの成果"
+      }
+    ],
+    "LSTM": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 41,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 57,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 63,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 52,
+        "section": "2.2.1 ライフログの観測対象と時間尺度"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 72,
+        "section": "2.3.1 多時間尺度の状態表現"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 134,
+        "section": "2.4.1 LSTMのゲートとセル状態"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 136,
+        "section": "2.4.1 LSTMのゲートとセル状態"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 168,
+        "section": "2.4.2 状態保持とTruncated BPTT"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 237,
+        "section": "2.6 既存研究の課題と本研究の位置付け"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 49,
+        "section": "3.2.1 打鍵系列の表現"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 74,
+        "section": "3.3.1 歩数と予定情報"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 152,
+        "section": "3.5.3 データ取得手段と保存形式"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 3,
+        "section": "第4章 三階層生活状態モデルと個人適応アルゴリズム"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 25,
+        "section": "4.1.2 三つの時間階層"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 27,
+        "section": "4.2 LSTMの状態更新"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 29,
+        "section": "4.2 LSTMの状態更新"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 44,
+        "section": "4.2.1 ゲートの計算"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 54,
+        "section": "4.2.2 セル状態とhidden状態の更新"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 60,
+        "section": "4.3 三階層の状態遷移"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 62,
+        "section": "4.3 三階層の状態遷移"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 69,
+        "section": "4.3.1 Micro状態の遷移"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 79,
+        "section": "4.3.2 Meso状態の遷移"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 89,
+        "section": "4.3.3 Macro状態の遷移と出力"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 104,
+        "section": "4.3.3 Macro状態の遷移と出力"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 108,
+        "section": "4.4 生活状態のトポロジカルマッピング"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 150,
+        "section": "4.4.3 観測状態マップと三階層推定の対応"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 152,
+        "section": "4.4.3 観測状態マップと三階層推定の対応"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 196,
+        "section": "4.6 状態保持とTBPTTによる学習"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 347,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 349,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 357,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 359,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 369,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/06-conclusion.md",
+        "line": 10,
+        "section": "6.2 数理モデルと学習アルゴリズムの成果"
+      }
+    ],
+    "SSL": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 47,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 55,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 63,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 65,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 178,
+        "section": "2.4.4 自己教師あり学習による表現形成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 180,
+        "section": "2.4.4 自己教師あり学習による表現形成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 184,
+        "section": "2.4.4 自己教師あり学習による表現形成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 237,
+        "section": "2.6 既存研究の課題と本研究の位置付け"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 3,
+        "section": "第4章 三階層生活状態モデルと個人適応アルゴリズム"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 104,
+        "section": "4.3.3 Macro状態の遷移と出力"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 310,
+        "section": "4.9 階層型自己教師あり事前学習（SSL）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 312,
+        "section": "4.9 階層型自己教師あり事前学習（SSL）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 316,
+        "section": "4.9 階層型自己教師あり事前学習（SSL）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 320,
+        "section": "4.9 階層型自己教師あり事前学習（SSL）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 325,
+        "section": "4.9 階層型自己教師あり事前学習（SSL）"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 59,
+        "section": "5.3.1 時間順分割"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 105,
+        "section": "5.4.2 階層化と状態保持のアブレーション"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 123,
+        "section": "5.5.2 本研究の貢献"
+      }
+    ],
+    "TBPTT": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 45,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 55,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 63,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 65,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 156,
+        "section": "2.4.2 状態保持とTruncated BPTT"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 168,
+        "section": "2.4.2 状態保持とTruncated BPTT"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 154,
+        "section": "3.5.3 データ取得手段と保存形式"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 3,
+        "section": "第4章 三階層生活状態モデルと個人適応アルゴリズム"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 194,
+        "section": "4.6 状態保持とTBPTTによる学習"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 196,
+        "section": "4.6 状態保持とTBPTTによる学習"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 208,
+        "section": "4.6.2 TBPTTの学習手順"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 105,
+        "section": "5.4.2 階層化と状態保持のアブレーション"
+      },
+      {
+        "file": "chapters/06-conclusion.md",
+        "line": 10,
+        "section": "6.2 数理モデルと学習アルゴリズムの成果"
+      }
+    ],
+    "GrowingMap": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 43,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 65,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 88,
+        "section": "2.3.2 トポロジカルマッピングの原理"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 90,
+        "section": "2.3.3 GrowingMapによる状態空間の成長"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 92,
+        "section": "2.3.3 GrowingMapによる状態空間の成長"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 126,
+        "section": "2.3.3 GrowingMapによる状態空間の成長"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 128,
+        "section": "2.3.3 GrowingMapによる状態空間の成長"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 229,
+        "section": "2.5.2 PMTTによる情報の分離"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 237,
+        "section": "2.6 既存研究の課題と本研究の位置付け"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 3,
+        "section": "第4章 三階層生活状態モデルと個人適応アルゴリズム"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 108,
+        "section": "4.4 生活状態のトポロジカルマッピング"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 268,
+        "section": "4.8 運動提案：トポロジカル状態に基づく歩数不足判定とMETs換算"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 59,
+        "section": "5.3.1 時間順分割"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 119,
+        "section": "5.5.1 数理モデルと観測設計の対応"
+      },
+      {
+        "file": "chapters/06-conclusion.md",
+        "line": 10,
+        "section": "6.2 数理モデルと学習アルゴリズムの成果"
+      }
+    ],
+    "GNG": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 43,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 86,
+        "section": "2.3.2 トポロジカルマッピングの原理"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 88,
+        "section": "2.3.2 トポロジカルマッピングの原理"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 124,
+        "section": "2.3.3 GrowingMapによる状態空間の成長"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 108,
+        "section": "4.4 生活状態のトポロジカルマッピング"
+      }
+    ],
+    "ContextLSTM": [
+      {
+        "file": "chapters/03-system.md",
+        "line": 86,
+        "section": "3.3.2 開閉センサ状態"
+      }
+    ],
+    "LocalEncoder": [
+      {
+        "file": "chapters/03-system.md",
+        "line": 57,
+        "section": "3.2.2 文章特徴の表現"
+      }
+    ],
+    "SentenceTransformer": [
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 235,
+        "section": "2.6 既存研究の課題と本研究の位置付け"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 57,
+        "section": "3.2.2 文章特徴の表現"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 99,
+        "section": "5.4.1 入力情報のアブレーション"
+      }
+    ],
+    "MiniLM": [
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 235,
+        "section": "2.6 既存研究の課題と本研究の位置付け"
+      }
+    ],
+    "SimCLR": [
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 180,
+        "section": "2.4.4 自己教師あり学習による表現形成"
+      }
+    ],
+    "MAE": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 55,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 154,
+        "section": "3.5.3 データ取得手段と保存形式"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 192,
+        "section": "4.5.3 統合損失と正則化"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 357,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 359,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 372,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 377,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 76,
+        "section": "5.3.3 5尺度推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 79,
+        "section": "5.3.3 5尺度推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 82,
+        "section": "5.3.3 5尺度推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 84,
+        "section": "5.3.3 5尺度推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 89,
+        "section": "5.3.3 5尺度推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 93,
+        "section": "5.4 アブレーションとアルゴリズム比較"
+      }
+    ],
+    "macro-F1": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 55,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 166,
+        "section": "4.5.1 活動分類損失"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 63,
+        "section": "5.3.2 活動推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 69,
+        "section": "5.3.2 活動推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 72,
+        "section": "5.3.2 活動推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 93,
+        "section": "5.4 アブレーションとアルゴリズム比較"
+      }
+    ],
+    "METs": [
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 23,
+        "section": "2.1.1 身体活動の連続計測"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 266,
+        "section": "4.8 運動提案：トポロジカル状態に基づく歩数不足判定とMETs換算"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 294,
+        "section": "4.8.3 METs換算と候補生成"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 296,
+        "section": "4.8.3 METs換算と候補生成"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 299,
+        "section": "4.8.3 METs換算と候補生成"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 306,
+        "section": "4.8.4 PMTTへの根拠記録と提示"
+      }
+    ],
+    "EMA": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 33,
+        "section": "1.3 ライフログによる生活状態理解の課題"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 56,
+        "section": "2.2.2 主観状態の取得と回答負担"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 60,
+        "section": "2.2.2 主観状態の取得と回答負担"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 23,
+        "section": "5.2 実現可能性と回答負担の評価"
+      }
+    ],
+    "typing_change": [
+      {
+        "file": "chapters/03-system.md",
+        "line": 49,
+        "section": "3.2.1 打鍵系列の表現"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 119,
+        "section": "5.5.1 数理モデルと観測設計の対応"
+      }
+    ],
+    "breakCheck": [
+      {
+        "file": "chapters/04-model.md",
+        "line": 262,
+        "section": "4.7.4 休憩提案への接続"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 377,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 19,
+        "section": "5.1.2 休憩提案の無作為化"
+      }
+    ],
+    "exerciseProposal": [
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 225,
+        "section": "2.5.2 PMTTによる情報の分離"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 238,
+        "section": "4.7.1 観測・推定・根拠・修正の分離"
+      }
+    ],
+    "lifelog_pc_fix": [
+      {
+        "file": "chapters/04-model.md",
+        "line": 349,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      }
+    ],
+    "部分プーリング": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 47,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 57,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 63,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 65,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 186,
+        "section": "2.4.5 階層モデルと部分プーリング"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 188,
+        "section": "2.4.5 階層モデルと部分プーリング"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 237,
+        "section": "2.6 既存研究の課題と本研究の位置付け"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 3,
+        "section": "第4章 三階層生活状態モデルと個人適応アルゴリズム"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 327,
+        "section": "4.10 部分プーリングによる個人差のモデル化"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 329,
+        "section": "4.10 部分プーリングによる個人差のモデル化"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 57,
+        "section": "5.3.1 時間順分割"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 87,
+        "section": "5.3.3 5尺度推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 109,
+        "section": "5.4.3 個人適応のアブレーション"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 123,
+        "section": "5.5.2 本研究の貢献"
+      }
+    ],
+    "履歴条件付け": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 49,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 57,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 65,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 172,
+        "section": "2.4.3 自己報告による個人適応"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 110,
+        "section": "3.4.2 回答対象時刻と取得遅延"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 7,
+        "section": "4.1 生活状態推定問題の定式化"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 98,
+        "section": "4.3.3 Macro状態の遷移と出力"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 240,
+        "section": "4.7.2 個人履歴による条件付け"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 316,
+        "section": "4.9 階層型自己教師あり事前学習（SSL）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 325,
+        "section": "4.9 階層型自己教師あり事前学習（SSL）"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 349,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 109,
+        "section": "5.4.3 個人適応のアブレーション"
+      },
+      {
+        "file": "chapters/06-conclusion.md",
+        "line": 11,
+        "section": "6.2 数理モデルと学習アルゴリズムの成果"
+      }
+    ],
+    "prequential": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 49,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 57,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 174,
+        "section": "2.4.3 自己報告による個人適応"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 258,
+        "section": "4.7.3 参加者内モデルのオンライン微調整評価"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 345,
+        "section": "4.10 部分プーリングによる個人差のモデル化"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 45,
+        "section": "5.3 推定性能の評価計画"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 59,
+        "section": "5.3.1 時間順分割"
+      }
+    ],
+    "heartbeat": [
+      {
+        "file": "chapters/03-system.md",
+        "line": 35,
+        "section": "3.2 キーボード由来の観測変数"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 47,
+        "section": "3.2.1 打鍵系列の表現"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 27,
+        "section": "5.2.1 データ取得の継続性"
+      }
+    ],
+    "受信時刻": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 21,
+        "section": "1.2 活動量計測からライフログへの展開"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 29,
+        "section": "2.1.2 複数情報源による活動量の文脈化"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 174,
+        "section": "2.4.3 自己報告による個人適応"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 233,
+        "section": "2.6 既存研究の課題と本研究の位置付け"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 12,
+        "section": "3.1 観測過程の定義"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 15,
+        "section": "3.1 観測過程の定義"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 19,
+        "section": "3.1 観測過程の定義"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 29,
+        "section": "3.1.2 時刻と系列の単位"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 110,
+        "section": "3.4.2 回答対象時刻と取得遅延"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 113,
+        "section": "3.4.2 回答対象時刻と取得遅延"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 116,
+        "section": "3.4.2 回答対象時刻と取得遅延"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 134,
+        "section": "3.5.1 時間整列と階層別集約"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 150,
+        "section": "3.5.3 データ取得手段と保存形式"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 152,
+        "section": "3.5.3 データ取得手段と保存形式"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 7,
+        "section": "4.1 生活状態推定問題の定式化"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 19,
+        "section": "4.1.1 入力・出力変数"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 82,
+        "section": "4.3.2 Meso状態の遷移"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 86,
+        "section": "4.3.3 Macro状態の遷移と出力"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 222,
+        "section": "4.6.3 推定継続時の状態管理"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 236,
+        "section": "4.7.1 観測・推定・根拠・修正の分離"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 242,
+        "section": "4.7.2 個人履歴による条件付け"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 258,
+        "section": "4.7.3 参加者内モデルのオンライン微調整評価"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 345,
+        "section": "4.10 部分プーリングによる個人差のモデル化"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 357,
+        "section": "4.11 ベースライン暫定推定とLSTMへの切替（コールドスタート）"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 39,
+        "section": "5.2.3 回答負担"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 49,
+        "section": "5.3.1 時間順分割"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 123,
+        "section": "5.5.2 本研究の貢献"
+      }
+    ],
+    "scope": [
+      {
+        "file": "chapters/03-system.md",
+        "line": 96,
+        "section": "3.4.1 活動ラベルと5尺度"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 132,
+        "section": "3.5.1 時間整列と階層別集約"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 13,
+        "section": "4.1.1 入力・出力変数"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 16,
+        "section": "4.1.1 入力・出力変数"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 98,
+        "section": "4.3.3 Macro状態の遷移と出力"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 101,
+        "section": "4.3.3 Macro状態の遷移と出力"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 183,
+        "section": "4.5.3 統合損失と正則化"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 275,
+        "section": "4.8.1 状態の定義と状態内歩数"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 285,
+        "section": "4.8.2 通常値と不足の判定"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 289,
+        "section": "4.8.2 通常値と不足の判定"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 72,
+        "section": "5.3.2 活動推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 87,
+        "section": "5.3.3 5尺度推定の指標"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 89,
+        "section": "5.3.3 5尺度推定の指標"
+      }
+    ],
+    "トポロジカル": [
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 74,
+        "section": "2.3.2 トポロジカルマッピングの原理"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 88,
+        "section": "2.3.2 トポロジカルマッピングの原理"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 106,
+        "section": "4.4 生活状態のトポロジカルマッピング"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 266,
+        "section": "4.8 運動提案：トポロジカル状態に基づく歩数不足判定とMETs換算"
+      }
+    ],
+    "状態保持": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 45,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 55,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 65,
+        "section": "1.6 本論文の構成"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 154,
+        "section": "2.4.2 状態保持とTruncated BPTT"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 168,
+        "section": "2.4.2 状態保持とTruncated BPTT"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 82,
+        "section": "3.3.2 開閉センサ状態"
+      },
+      {
+        "file": "chapters/03-system.md",
+        "line": 154,
+        "section": "3.5.3 データ取得手段と保存形式"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 3,
+        "section": "第4章 三階層生活状態モデルと個人適応アルゴリズム"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 60,
+        "section": "4.3 三階層の状態遷移"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 62,
+        "section": "4.3 三階層の状態遷移"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 194,
+        "section": "4.6 状態保持とTBPTTによる学習"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 196,
+        "section": "4.6 状態保持とTBPTTによる学習"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 198,
+        "section": "4.6.1 状態の引継ぎと初期化条件"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 200,
+        "section": "4.6.1 状態の引継ぎと初期化条件"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 210,
+        "section": "4.6.2 TBPTTの学習手順"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 101,
+        "section": "5.4.2 階層化と状態保持のアブレーション"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 105,
+        "section": "5.4.2 階層化と状態保持のアブレーション"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 127,
+        "section": "5.5.3 適用範囲と限界"
+      },
+      {
+        "file": "chapters/06-conclusion.md",
+        "line": 10,
+        "section": "6.2 数理モデルと学習アルゴリズムの成果"
+      }
+    ],
+    "事前学習済み": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 47,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 176,
+        "section": "2.4.3 自己報告による個人適応"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 226,
+        "section": "4.7 PMTTと個人適応"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 345,
+        "section": "4.10 部分プーリングによる個人差のモデル化"
+      }
+    ],
+    "未実装": [
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 45,
+        "section": "1.4 本研究の着眼点と目的"
+      },
+      {
+        "file": "chapters/01-introduction.md",
+        "line": 55,
+        "section": "1.5 研究課題と評価方針"
+      },
+      {
+        "file": "chapters/02-related-work.md",
+        "line": 168,
+        "section": "2.4.2 状態保持とTruncated BPTT"
+      },
+      {
+        "file": "chapters/04-model.md",
+        "line": 196,
+        "section": "4.6 状態保持とTBPTTによる学習"
+      },
+      {
+        "file": "chapters/05-evaluation.md",
+        "line": 105,
+        "section": "5.4.2 階層化と状態保持のアブレーション"
+      }
+    ]
+  },
+  "figure_number_mentions": [
+    {
+      "file": "chapters/02-related-work.md",
+      "line": 128,
+      "text": "図2.1　GrowingMapの概念図。観測マスクとラベルが一致する代表から勝者を選び、既存ノードの逐次平均更新または閾値による新規ノード生成を行う。ノード間の矢印は連続割当ての時間遷移であり、図中の配置は学習された低次元座標ではない。"
+    },
+    {
+      "file": "chapters/03-system.md",
+      "line": 19,
+      "text": "図3.1　研究用キーボード・歩数・予定・センサの観測を収集サーバへ保存し、受信時刻を保持した学習データ構築を経て研究サーバの学習・推論と質問・提案提示へ接続する構成。"
+    },
+    {
+      "file": "chapters/04-model.md",
+      "line": 62,
+      "text": "図4.1　三階層LSTMの処理構造。Microは5分ビン、Mesoは日内の作業区間、Macroは先行28日と当週を処理する。状態引継ぎの注記は採用設計であり、現行実装は系列ごとに初期化する。"
+    }
+  ],
+  "limitations": [
+    "出現索引は定義・使用の意味的判定そのものではない。意味的判定は査読本文参照。",
+    "実験ログ、実行設定、チェックポイント、実データの使用履歴はこの索引から証明できない。"
+  ]
+}
