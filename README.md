@@ -1,55 +1,62 @@
 # master_paper
 
-修士論文の原稿を少しずつ構築するためのリポジトリ。
-対象システムは `switch_bot_python`（収集・学習・推論サーバー）と `communication-keyboard`（iOS研究用キーボード）。
+研究用キーボードと生活情報による生活状態モデルの修士論文原稿。
 
-## 関連リポジトリ
+## このブランチの提案構成
 
-- 収集・学習・推論サーバー: [switch_bot_python](https://github.com/shunsuke-tanaka-creator/switch_bot_python)
-- iOS研究用キーボード: [communication-keyboard](https://github.com/shunsuke-tanaka-creator/communication-keyboard)
+**固定24活動分類と独立Task推定の重複をやめ、共有三階層LSTMからPlace・Behavior・現在/日次5尺度を扱う。** Behaviorのカテゴリ数は固定せず、埋め込みのプロトタイプと時間遷移から個人固有の候補を発見する。本人確認と命名を機械の候補生成とは区別する。
 
-## 論文構成
+- 実装PR: [switch_bot_python #9](https://github.com/shunsuke-tanaka-creator/switch_bot_python/pull/9)
+- アプリ互換性PR: [communication-keyboard #8](https://github.com/shunsuke-tanaka-creator/communication-keyboard/pull/8)
+- サーバー仕様: [life-pattern-discovery.md](https://github.com/shunsuke-tanaka-creator/switch_bot_python/blob/feat/unified-life-pattern-discovery/docs/life-pattern-discovery.md)
 
-章ごとに1ファイル。節・小節は見出しとして各ファイルに用意してあるので、その下に書き足していく。
+本番への切替・デプロイ・実参加者での精度検証を完了したという意味ではない。サーバーの既定はlegacyで、新方式は`research_architecture=discovery`で明示選択する。
 
-- 第1章 序論: [chapters/01-introduction.md](chapters/01-introduction.md)
-- 第2章 ライフログ研究の展開と生活状態モデルの数理的基盤: [chapters/02-related-work.md](chapters/02-related-work.md)
-- 第3章 生活情報の観測と学習データ構築: [chapters/03-system.md](chapters/03-system.md)
-- 第4章 三階層生活状態モデルと個人適応アルゴリズム: [chapters/04-model.md](chapters/04-model.md)
-- 第5章 探索的予備研究の評価計画と考察観点: [chapters/05-evaluation.md](chapters/05-evaluation.md)
-- 第6章 結論: [chapters/06-conclusion.md](chapters/06-conclusion.md)
-- 謝辞: [chapters/07-acknowledgements.md](chapters/07-acknowledgements.md)
-- 参考文献: [references.bib](references.bib)（BibTeXを正本とし、本文では `[@キー]` で引用する）
+## 章構成
 
-補助フォルダ:
+- 第1章: [序論](chapters/01-introduction.md)
+- 第2章: [ライフログ研究の展開と生活状態モデルの数理的基盤](chapters/02-related-work.md)
+- 第3章: [生活情報の観測と学習データ構築](chapters/03-system.md)
+- 第4章: [共有三階層LSTMによる生活パターン発見と状態推定](chapters/04-model.md)
+- 第5章: [探索的予備研究の評価計画と考察観点](chapters/05-evaluation.md)
+- 第6章: [結論](chapters/06-conclusion.md)
+- [謝辞](chapters/07-acknowledgements.md)
+- [参考文献](references.bib): BibTeXを正本とし、本文は`[@キー]`で引用する。
 
-- `notes/ideas`（思いつき・断片）、`notes/literature`（文献メモ）、`notes/meeting`（ゼミ・面談メモ）
-- `figures`（図表の画像）
-- `experiments`（実験ごとの条件・結果メモを `YYYY-MM-DD-名前/` で置く）
+**方式の区別:** 第2章2.3.3のGrowingMapの詳細は従来方式の数理である。生観測の共通座標による距離、半径0.35、12時間の遷移条件は、提案方式の埋め込み・コサイン類似度0.88・1時間の遷移条件へ流用しない。提案方式の仕様は第3・4章と対応実装を基準とする。旧方式の関連説明と提案方式の表現の整理は査読時にも確認する。
 
-## 使用モデル概要
+## モデルの役割
 
-本文の「提案手法」「実装」で参照するためのメモ。詳細は各リポジトリのコードと `docs/` を正とする。
+| 要素 | 提案構成 | 従来・比較構成 |
+| --- | --- | --- |
+| 三階層LSTM | 一つの共有エンコーダ、入力98・隠れ48 | 24活動と現在/日次5尺度 |
+| Place / Behavior | 独立した各32次元射影と本人確認ID | 独立ContextLSTMのplace/task |
+| パターンマップ | DiscoveryMap、訓練側で構築し推論時は固定 | 生観測GrowingMap |
+| 24活動 | 事後の説明注釈・旧分類器の比較 | 固定分類の教師と出力 |
+| 5尺度 | 回答済み座標のHuber損失、支持不足は非表示 | 旧個人履歴条件付け・暫定値の経路 |
+| SSL | 再構成・将来予測と教師損失の同時学習 | 独立した事前学習実験 |
+| 個人適応 | 個人の観測・確認による表現とID | 部分プーリング・prequentialは独立比較 |
 
-- **三階層LSTM（HierarchicalLSTM）** — 生活状態推定の本体。Micro／Meso／Macro の3階層で、現在の5尺度（気分・疲労・ストレス・集中度・眠気）と日次5尺度、活動分類を推定する。入力98次元、隠れ層48次元、パラメータ数 86,050。特徴仕様バージョンは `hierarchical-v2-received-cutoff`（受信時刻ベースの因果カットオフ）。
-- **ContextLSTM** — 拠点（場所）とタスクの推定モデル。隠れ層24次元、場所／タスク埋め込み各32次元。仕様バージョンは `behavior-context-v2-received-cutoff`。GPSは使わない。
-- **LocalEncoder** — 文章特徴用のローカル SentenceTransformer（BERT系、隠れ384次元）。埋め込みを固定ランダム射影で32次元化して三階層LSTMへ入力する。参加者の入力原文を外部サービスへ送信しないため、エンコーダはローカル実行のみ。
-- **typing_change** — 入力（訂正率）の普段との差の検出。日単位プーリングで1日50 inserts以上を有効日とし、基準は暫定3日／正式5日、閾値は99パーセンタイル。
-- **GrowingMap** — 入力行動パターンを逐次クラスタリングする生活状態マップ（最大256ノード）。
-- **個人ベースライン（conditional／weekday_trends）** — 過去56日を使った条件付き個人ベースラインと、曜日×時間帯の傾向推定。推定値そのものではなく「普段との差」の根拠として使う。
+新構成の版は`life-discovery-v1`。`task`は保存・通信上のBehaviorの互換名で、別の推定器ではない。旧基本モデルの86,050というパラメータ数を新構成の数値として引用しない。
 
-## 学習まわりの前提
+ローカルSentenceTransformerの文章表現は固定射影で32次元化する。未指定の文字n-gram経路は意味モデルとは区別する。入力原文を外部AIサービスへ送信しない。
 
-- データモードは `real`／`sample`／`combined` の3種（サンプルは合成データで、実データとは参加者を分けて管理）。
-- 本番モデルはオンライン学習ではない。推論は60秒間隔で固定モデルを使い、学習はデータ指紋の変化を見て1時間ごとにバッチ再学習し、検証結果が既存モデルより悪くない場合だけ昇格させる。
-- 個人適応は本番の逐次更新ではなく、prequential（予測→受信済み回答だけで更新）プロトコルで評価する。
+## 実装と評価の境界
 
-## 査読資料
+重みと候補マップの更新はバッチ再学習で行う。ライブ推論時に隠れ状態を持ち越したり、クラスタを逐次永続化したりする構成ではない。新たな未知候補は次回学習へ反映する。モデル更新時は既知IDの元観測を再埋め込みし、異なるモデルの重心を混ぜない。
 
-- [2026年11月17日 総合査読・全文整合性検証](reviews/2026-11-17-comprehensive-review.md)：A〜I形式の評価、優先度付き34指摘、実装根拠、局所修正案、最終チェックリスト。
-- [全51表示数式の点検と修正案](reviews/2026-11-17-equations.md)
-- [検証範囲・実装経路・未検証事項](reviews/2026-11-17-coverage.md)
+新状態に対する運動・休憩の自動提案は未検証のため停止する。旧方式の動作は変更しない。状態保持型TBPTT、参加者間共有、全アブレーションの切替、参加者macro集計、未知検出の詳細評価は、実装済みの基本経路と評価計画を分けて記述する。
+
+第5章は最大5名・14日間の探索的計画である。実験結果・有効性を追記する際は、実行したcommit、モデル版、分割時刻、文章モデル、データモードを固定する。合成テストの成功は実データ精度の証明ではない。
+
+## 補助資料と履歴
+
+`notes/ideas`・`notes/literature`・`notes/meeting`は検討メモ、`figures`は図、`experiments/YYYY-MM-DD-名前/`は実験記録を保存する。旧図を新方式の構造としてそのまま流用しない。
+
+以下は変更前の原稿・実装を対象とした履歴資料であり、今回の改稿後に表示数式数や指摘番号を再検証した資料ではない。
+
+- [2026-11-17 総合査読](reviews/2026-11-17-comprehensive-review.md)
+- [変更前の全51表示数式の点検](reviews/2026-11-17-equations.md)
+- [検証範囲・未検証事項](reviews/2026-11-17-coverage.md)
 - [参考文献19件の書誌照合](reviews/2026-11-17-bibliography.md)
-- [章・数式・引用・用語の出現索引](reviews/2026-11-17-manuscript-index.json)
-
-査読は原稿・サーバー・iOSのコミットを固定して実施した。本文の全面改稿は行わず、問題点と修正案を提示している。提供された全文は確認済みだが、実験結果・要旨・完成した結論と実験使用証拠が未確認のため、完成論文としての総合評価は暫定である。
+- [変更前の出現索引](reviews/2026-11-17-manuscript-index.json)
