@@ -1,0 +1,19 @@
+digraph GrowingMap {
+  graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.4", ranksep="0.55", fontname="Noto Sans CJK JP", label="GrowingMap：座標別逐次平均と状態変更回数", labelloc=t, fontsize=22];
+  node [shape=box, style="rounded", fontname="Noto Sans CJK JP", fontsize=15, margin="0.18,0.12"];
+  edge [fontname="Noto Sans CJK JP", fontsize=13];
+  input [label="観測ベクトル・観測マスク\n場所とアクションのラベル"];
+  match [label="同一ラベル・共通観測3座標以上\nマスク付きRMS距離で勝者を選択"];
+  decision [shape=diamond, label="最小距離 ≤ ρ？"];
+  update [label="勝者の観測座標だけを更新\nn ← n + 1\nw ← w + (x − w) / n\n初観測の座標は w = x, n = 1"];
+  insert [label="観測3座標以上・ノード数 < 256\n新規ノードを挿入\n上限時は未割当て"];
+  merge [label="同一ラベル・距離 ≤ ρ/2 なら統合\n座標別回数の加重平均・IDを正規化\n統合で生じた自己辺は除く"];
+  count [label="連続する割当て済みの異なる状態\n0 ≤ 時刻差 ≤ 12時間\n状態変更回数 N_ab を加算・保存"];
+  ratio [label="回数から構成比 Q_ab を導出\n分母：Aから他状態への変更回数の合計\n分母0は未定義・自己遷移は対象外"];
+  input -> match -> decision;
+  decision -> update [label="はい"];
+  decision -> insert [label="いいえ／代表なし"];
+  update -> merge;
+  insert -> merge [label="割当てあり"];
+  merge -> count -> ratio;
+}
