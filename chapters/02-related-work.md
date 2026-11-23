@@ -210,17 +210,17 @@ $$
 
 ### 2.5.2 従来構成のPMTTによる情報の分離
 
-従来構成のPMTTを記録の由来をたどるグラフ$G=(V,E)$とし、情報の役割を$\mathcal{O}$（観測）、$\mathcal{I}$（推定）、$\mathcal{R}$（根拠）、$\mathcal{C}$（本人の回答・修正）で表す。概念上の対応は
+従来構成のPMTTを記録の由来をたどるグラフ$G=(V,E_G)$とする。$V$は記録のノード集合、$E_G$は関係を表す有向辺集合である。情報の役割を$\mathcal{O}$（観測）、$\mathcal{I}$（推定）、$\mathcal{E}$（根拠）、$\mathcal{R}$（本人の回答・修正）で表し、第4章の役割表記へ統一する。概念上の対応は
 
 $$
 \mathcal{O}\xrightarrow{\mathrm{used\ by}}\mathcal{I},\qquad
-\mathcal{R}\xrightarrow{\mathrm{supports}}\mathcal{I}\ \text{または提案},\qquad
-\mathcal{C}\xrightarrow{\mathrm{targets}}\mathcal{I}\ \text{または対象区間}
+\mathcal{E}\xrightarrow{\mathrm{supports}}\mathcal{I}\ \text{または提案},\qquad
+\mathcal{R}\xrightarrow{\mathrm{targets}}\mathcal{I}\ \text{または対象区間}
 $$
 
 である。役割の分離は、保存上のすべての記録が四種類の専用ノード型を持つことを要求しない。従来APIでは観測、推定、narrative、correctionなどをObservation型で包み、source属性で区別する。これらを毎正時のStateEpisode、Day、月曜起点の固定週Patternへ関連付ける。運動提案はExerciseProposalとして根拠と対応付けられる。この保存の背景は、提案方式で新しい状態に基づく運動提案が実装・検証済みであることを意味しない。
 
-修正記録$c$は、対象区間、追加時刻、参照ID、修正内容を持つ。元の観測$o$や推定$i$を削除して新しい値へ置き換えるのではなく、修正を追加して当時の推定を残す。学習データを作る際に利用可能な修正を選ぶ処理と、履歴の表示は分ける。このため、現在の本人回答と、過去の時点で利用できた本人回答の双方を再構成できる。
+修正記録$r\in\mathcal R$は、対象区間、追加時刻、参照ID、修正内容を持つ。元の観測$o\in\mathcal O$や推定$i\in\mathcal I$を削除して新しい値へ置き換えるのではなく、修正を追加して当時の推定を残す。学習データを作る際に利用可能な修正を選ぶ処理と、履歴の表示は分ける。このため、現在の本人回答と、過去の時点で利用できた本人回答の双方を再構成できる。
 
 PMTTは時間枠に沿う由来の構造であり、未知の行動パターンを自動発見する学習器ではない。GrowingMapの状態ノードとPMTTの時間枠ノードを同一視せず、状態割当てを持つ観測記録を介して対応させる。由来グラフを保持しても、モデルの判断全体が因果的に説明されたことにはならず、どの入力と基準を用いたかという検証可能性を支える。
 
