@@ -2,6 +2,18 @@
 
 研究用キーボードと生活情報による生活状態モデルの修士論文原稿。
 
+## 原稿の編集とPDFの生成
+
+[thesis.tex](thesis.tex)で表紙と文書全体の設定を管理し、本文は`chapters/`内の章別`.tex`を編集する。章節・図の番号はLaTeXが付ける。本文の引用には`\autocite{引用キー}`、相互参照には`\label`と`\ref`を使う。
+
+XeLaTeX、latexmk、Biber、Noto Serif CJK JPが必要。Ubuntuでは`texlive-xetex`、`texlive-lang-chinese`（`xeCJK`に必要なパッケージを含む）、`texlive-latex-extra`、`texlive-fonts-recommended`、`texlive-bibtex-extra`、`latexmk`、`biber`、`fonts-noto-cjk`で揃う。
+
+```bash
+bash scripts/build_pdf.sh
+```
+
+生成先は`build/thesis.pdf`。`sample/`には過去の版を収録している。
+
 ## 論文の主構成と関連PR
 
 **固定24活動分類と独立Task推定の重複をやめ、共有三階層LSTMからPlace・Behavior・現在/日次5尺度を扱う。** Behaviorのカテゴリ数は固定せず、埋め込みのプロトタイプと時間遷移から個人固有の候補を発見する。本人確認と命名を機械の候補生成とは区別する。
@@ -17,14 +29,14 @@
 
 ## 章構成
 
-- 第1章: [序論](chapters/01-introduction.md)
-- 第2章: [ライフログ研究の展開と生活状態モデルの数理的基盤](chapters/02-related-work.md)
-- 第3章: [生活情報の観測と学習データ構築](chapters/03-system.md)
-- 第4章: [共有三階層LSTMによる生活パターン発見と状態推定](chapters/04-model.md)
-- 第5章: [探索的予備研究の評価計画と考察観点](chapters/05-evaluation.md)
-- 第6章: [結論](chapters/06-conclusion.md)
-- [謝辞](chapters/07-acknowledgements.md)
-- [参考文献](references.bib): BibTeXを正本とし、本文は`[@キー]`で引用する。
+- 第1章: [序論](chapters/01-introduction.tex)
+- 第2章: [ライフログ研究の展開と生活状態モデルの数理的基盤](chapters/02-related-work.tex)
+- 第3章: [生活情報の観測と学習データ構築](chapters/03-system.tex)
+- 第4章: [共有三階層LSTMによる生活パターン発見と状態推定](chapters/04-model.tex)
+- 第5章: [探索的予備研究の評価計画と考察観点](chapters/05-evaluation.tex)
+- 第6章: [結論](chapters/06-conclusion.tex)
+- [謝辞](chapters/07-acknowledgements.tex)
+- [参考文献](references.bib)
 
 **方式の区別:** 第2章2.3.3のGrowingMapの詳細は従来方式の数理である。生観測の共通座標による距離、半径0.35、12時間の状態変更条件は、提案方式の埋め込み・コサイン類似度0.88・1時間の状態変更条件へ流用しない。従来方式の固定24活動分類、独立Task推定、個人履歴による条件付け、部分プーリング、暫定推定と切替、状態内歩数による提案、PMTTは、第2章および第4章末尾で背景・比較条件として保持する。提案方式の仕様は第3・4章と対応実装を基準とする。
 
@@ -76,4 +88,4 @@
 
 文エンコーダのSentenceTransformerへの整合は、両方式に共通する入力特徴の条件として第3章3.2.2に保持する。[2026-11-17の導入確認](experiments/2026-11-17-sentence-encoder/README.md)は合成データ等による実装動作確認であり、実参加者での精度改善や新方式の意味分離の結果ではない。
 
-[thesis_updated_20261117.pdf](sample/thesis_updated_20261117.pdf)と既存の`scripts/build_pdf.sh`は、2026-11-17の修正に対応する履歴資料・生成手順である。このPDFは新方式へ統合した本文の生成物ではない。スクリプトは図とPDFを上書きするため、使用時には生成対象と出力先を確認する。
+[thesis_updated_20261117.pdf](sample/thesis_updated_20261117.pdf)は、2026-11-17の修正を記録した版である。
