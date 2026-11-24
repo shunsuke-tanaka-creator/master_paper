@@ -239,7 +239,8 @@ x_j^{\rm norm}=m_j\frac{v_j-\mu_j}{\max(\sigma_j,0.1)}.
 
 重複排除、イベント整列、受信時刻の因果判定はイベントログを整える処理であり、LSTMのhidden・cell状態を保存する処理とは別である。学習例は固定Timelineから遅延生成して一度具体化し、同じ実行内で再利用する。遅延記録の到着によって、当時の推定を上書きしない。
 
-提案構成は\texttt{life-discovery-v1}であり、\texttt{research\_architecture=discovery}を明示して選択する。サーバーの既定は\texttt{legacy}である。新方式のモデルは\path|{participant}/{data_mode}/discovery/|へ分離し、旧checkpointや本人確認記録を上書きしない。運用ループは60秒ごとに推論し、1時間ごとにバッチ再学習を呼び出してデータ指紋と構成の変化を確認する。推論は固定モデル・固定マップを用い、バッチ再学習では元観測からマップを再構築する。新方式のモデル選択と昇格は第\ref{chap:model}章\ref{sec:legacy-and-deployment}の検証目的関数に従い、テスト成績を使用しない。質問・確認の履歴と当時のライブ推定を保持し、後日の再解析は別のモデルID・再解析時刻を持つ記録として追加する。
+% 追加: 研究ワーカーの有効化条件と各周回処理後の待機時間を明示する。
+提案構成は\texttt{life-discovery-v1}であり、\texttt{research\_architecture=discovery}を明示して選択する。サーバーの既定は\texttt{legacy}である。新方式のモデルは\path|{participant}/{data_mode}/discovery/|へ分離し、旧checkpointや本人確認記録を上書きしない。研究処理を\texttt{research\_enabled=true}として有効化した非upstreamサーバでは、推論の各周回処理後に60秒、学習の各周回処理後に3600秒待機する。実行間隔には処理時間が加わる。既定では自動研究ワーカーを起動しない。推論は固定モデル・固定マップを用い、バッチ再学習では元観測からマップを再構築する。新方式のモデル選択と昇格は第\ref{chap:model}章\ref{sec:legacy-and-deployment}の検証目的関数に従い、テスト成績を使用しない。質問・確認の履歴と当時のライブ推定を保持し、後日の再解析は別のモデルID・再解析時刻を持つ記録として追加する。
 
 親アプリの「くらしのログ」から「研究」を開くと、設定済みBackend URLの\path|research/{participantID}|を表示する。推定・検証状況、訂正、PMTT、エクスポートは接続先サーバの機能であり、アプリ更新だけで推定方式を切り替えるものではない。通常の画面遷移は初期接続先と同じホストまたはblob URLへ制限し、JSONダウンロードは一時保存後に本人が共有先を選ぶ。全種類のエクスポートが含むのはサーバDBの記録と機器メタデータであり、端末にだけ残る未送信記録やモデル重みは含まない。
 
