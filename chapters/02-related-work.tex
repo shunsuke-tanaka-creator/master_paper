@@ -81,21 +81,8 @@ Gurrinらは、個人の生活に関する継続的な記録を、個人の大�
 
 学習データはCC-100日本語版、OpenSubtitles日本語、JESCから構築した。2〜20字の日本語文を対象に、母音列、同一原文内の直前文、正解文の組を作り、学習750,029件、評価1,497件とした。学習時にはCTXを確率的に除去し、文脈がない条件も扱う。オフライン評価では、数字・英字を含む文を除いた1,378文を用いた。こうした選別条件を持つ評価であり、日常の自由記述全般を同じ条件で扱えたことを意味しない。
 
-% TODO: 図ファイルは FSS 論文から抽出・再構成して追加すること。追加したら次の行のコメントを外す。
-\begin{figure}[tbp]
-  \centering
-  % \includegraphics[width=\linewidth]{figures/fig_fss_overview.png}
-  \caption{母音省入力方式の概要。田中・久保田 \autocite{tanaka2026fss}を基に再構成。}
-  \label{fig:fss-overview}
-\end{figure}
-
-% TODO: 図ファイルは FSS 論文から抽出・再構成して追加すること。追加したら次の行のコメントを外す。
-\begin{figure}[tbp]
-  \centering
-  % \includegraphics[width=\linewidth]{figures/fig_fss_keyboard.png}
-  \caption{試作した母音キーボードの画面。田中・久保田 \autocite{tanaka2026fss}を基に再構成。}
-  \label{fig:fss-keyboard}
-\end{figure}
+% 追加: FSS図の未掲載を本文注記として明示する。
+母音省入力方式の概要図および試作キーボードの画面は未掲載である。原論文の図を確認した上で掲載する。
 
 オフライン評価では、入力記号を減らす効果と、日本語候補の生成性能を別々に測った。入力効率には、誤りなく入力するための最小打鍵数を正解文字数で割る理想KSPCを用いた。各方式の打鍵数は正解文の読みから数え、分母は同一の正解文字数とした。候補生成には、上位k件の候補に正解文全体が含まれる割合Acc@kを用いた。これは文全体の完全一致率であり、意味的に近い候補や一部だけ一致する候補の割合ではない。
 
