@@ -829,6 +829,39 @@
       \verb 10.1162/neco.1990.2.4.490
       \endverb
     \endentry
+    \entry{tanaka2026fss}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f17b42273aec84268dbf2f1fe01b2e08}{%
+           family={田中},
+           familyi={田\bibinitperiod},
+           given={峻介},
+           giveni={峻\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3bc65aedcea8ed48faced1ff76dc94b}{%
+           family={久保田},
+           familyi={久\bibinitperiod},
+           given={直行},
+           giveni={直\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{08cf4b4625fc7a16e7a2f135f1f25b6f}
+      \strng{fullhash}{08cf4b4625fc7a16e7a2f135f1f25b6f}
+      \strng{fullhashraw}{08cf4b4625fc7a16e7a2f135f1f25b6f}
+      \strng{bibnamehash}{08cf4b4625fc7a16e7a2f135f1f25b6f}
+      \strng{authorbibnamehash}{08cf4b4625fc7a16e7a2f135f1f25b6f}
+      \strng{authornamehash}{08cf4b4625fc7a16e7a2f135f1f25b6f}
+      \strng{authorfullhash}{08cf4b4625fc7a16e7a2f135f1f25b6f}
+      \strng{authorfullhashraw}{08cf4b4625fc7a16e7a2f135f1f25b6f}
+      \field{sortinit}{田}
+      \field{sortinithash}{7b36f5378c2a1e3d12e8ad660fe3f49b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{第42回ファジィシステムシンポジウム}
+      \field{title}{大規模言語モデルを用いた人にやさしい母音ベース省入力日本語インタフェース}
+      \field{year}{2026}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

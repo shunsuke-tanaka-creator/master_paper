@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.11.23)  25 NOV 2026 21:32
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.11.23)  25 NOV 2026 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -621,7 +621,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \@quotelevel=\count467
 \@quotereset=\count468
- (.tex64-build-wrvS1f/output/thesis.aux)
+ (.tex64-build-k6NSqj/output/thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -749,17 +749,17 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
- (.tex64-build-wrvS1f/output/thesis.bbl)
+ (.tex64-build-k6NSqj/output/thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 33.
 Package biblatex Info: Reference segment=0 on input line 33.
 Package hyperref Info: Link coloring OFF on input line 33.
- (.tex64-build-wrvS1f/output/thesis.out) (.tex64-build-wrvS1f/output/thesis.out)
+ (.tex64-build-k6NSqj/output/thesis.out) (.tex64-build-k6NSqj/output/thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
  [1
 
-] (.tex64-build-wrvS1f/output/thesis.toc
+] (.tex64-build-k6NSqj/output/thesis.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (/Users/Shared/TeX64/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -781,7 +781,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 Chapter 1.
 [4
 
-]) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/02-related-work.tex [5]
+] [5]) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/02-related-work.tex [6]
 Chapter 2.
 
 Package fontspec Info: 
@@ -804,55 +804,55 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Hiragino
 (fontspec)             Kaku Gothic ProN/BI/OT:script=hani;language=dflt;"
 
-[6
+[7
 
-] [7] [8] [9]
+] [8] [9] [10] [11] [12]
 File: figures/fig_growingmap.png Graphic file (type bmp)
 <figures/fig_growingmap.png>
- [10] [11] [12] [13]) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/03-system.tex [14]
+ [13] [14] [15] [16] [17]) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/03-system.tex [18]
 Chapter 3.
-[15
+[19
 
-] [16] [17] [18] [19] [20] [21]
+] [20] [21] [22] [23] [24] [25]
 File: figures/fig_system_overview.png Graphic file (type bmp)
 <figures/fig_system_overview.png>
-) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/04-model.tex [22]
+) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/04-model.tex [26]
 Chapter 4.
-[23
+[27
 
-] [24] [25] [26] [27] [28] [29] [30] [31]
+] [28] [29] [30] [31] [32] [33] [34] [35]
 File: figures/fig_hierarchical_lstm.png Graphic file (type bmp)
 <figures/fig_hierarchical_lstm.png>
- [32] [33] [34] [35] [36] [37] [38]) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/05-evaluation.tex [39]
+ [36] [37] [38] [39] [40] [41] [42]) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/05-evaluation.tex [43]
 Chapter 5.
-[40
+[44
 
-] [41] [42] [43]) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/06-conclusion.tex [44]
+] [45] [46] [47]) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/06-conclusion.tex [48]
 Chapter 6.
-) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/07-acknowledgements.tex [45
+) (/Users/tanakashunsuke/Desktop/universitiy/KubotaLab/master_paper/chapters/07-acknowledgements.tex [49
 
-] [46]) [47
+] [50]) [51
 
-] [48
+] [52
 
-] [49] (.tex64-build-wrvS1f/output/thesis.aux)
+] [53] (.tex64-build-k6NSqj/output/thesis.aux)
  ***********
 LaTeX2e <2026-11-01>
 L3 programming layer <2026/08/21>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C9233D430FDA7813A541ADE553A0965C;13672.
+(rerunfilecheck)             Checksum: 64711CB8E117643D52139137671AFB77;14030.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22463 strings out of 469637
- 480818 string characters out of 5462628
- 1396506 words of memory out of 5000000
- 51304 multiletter control sequences out of 15000+600000
+ 22512 strings out of 469637
+ 484087 string characters out of 5462628
+ 1401797 words of memory out of 5000000
+ 51353 multiletter control sequences out of 15000+600000
  637639 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,17n,96p,695b,5606s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,17n,96p,695b,5738s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on .tex64-build-wrvS1f/output/thesis.xdv (50 pages, 1171816 bytes).
+Output written on .tex64-build-k6NSqj/output/thesis.xdv (54 pages, 1276956 bytes).

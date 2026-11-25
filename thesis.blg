@@ -1,15 +1,15 @@
 [0] Config.pm:329> INFO - This is Biber 2.22
-[0] Config.pm:332> INFO - Logfile is '.tex64-build-wrvS1f/output/thesis.blg'
-[34] biber-darwin:342> INFO - === Wed Nov 25, 2026, 21:32:42
-[43] Biber.pm:421> INFO - Reading '.tex64-build-wrvS1f/output/thesis.bcf'
-[86] Biber.pm:1002> INFO - Found 19 citekeys in bib section 0
-[93] Biber.pm:4487> INFO - Processing section 0
-[99] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
-[100] bibtex.pm:1713> INFO - LaTeX decoding ...
-[107] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[201] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[201] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[201] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[201] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[211] bbl.pm:676> INFO - Writing '.tex64-build-wrvS1f/output/thesis.bbl' with encoding 'UTF-8'
-[216] bbl.pm:779> INFO - Output to .tex64-build-wrvS1f/output/thesis.bbl
+[0] Config.pm:332> INFO - Logfile is '.tex64-build-k6NSqj/output/thesis.blg'
+[34] biber-darwin:342> INFO - === Wed Nov 25, 2026, 21:40:10
+[42] Biber.pm:421> INFO - Reading '.tex64-build-k6NSqj/output/thesis.bcf'
+[84] Biber.pm:1002> INFO - Found 20 citekeys in bib section 0
+[91] Biber.pm:4487> INFO - Processing section 0
+[96] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
+[96] bibtex.pm:1713> INFO - LaTeX decoding ...
+[103] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[196] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[196] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[196] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[196] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[206] bbl.pm:676> INFO - Writing '.tex64-build-k6NSqj/output/thesis.bbl' with encoding 'UTF-8'
+[211] bbl.pm:779> INFO - Output to .tex64-build-k6NSqj/output/thesis.bbl

@@ -1,0 +1,304 @@
+\relax 
+\abx@aux@refcontext{nyt/global//global/global/global}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/r>>}
+\HyPL@Entry{1<</S/D>>}
+\abx@aux@cite{0}{tudorlocke2011steps}
+\abx@aux@segm{0}{0}{tudorlocke2011steps}
+\abx@aux@cite{0}{gurrin2014lifelogging}
+\abx@aux@segm{0}{0}{gurrin2014lifelogging}
+\abx@aux@cite{0}{tanaka2026fss}
+\abx@aux@segm{0}{0}{tanaka2026fss}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}序論}{4}{chapter.1}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:introduction}{{1}{4}{序論}{chapter.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}身近な活動量計測から生活の文脈へ}{4}{section.1.1}\protected@file@percent }
+\abx@aux@page{1}{4}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}異なる情報源を結び付けるライフログ}{4}{section.1.2}\protected@file@percent }
+\abx@aux@page{2}{4}
+\abx@aux@page{3}{4}
+\abx@aux@cite{0}{shiffman2008ema}
+\abx@aux@segm{0}{0}{shiffman2008ema}
+\abx@aux@cite{0}{hochreiter1997lstm}
+\abx@aux@segm{0}{0}{hochreiter1997lstm}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}固定分類と個人固有のパターンの隔たり}{5}{section.1.3}\protected@file@percent }
+\abx@aux@page{4}{5}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}本研究の目的と提案構成}{5}{section.1.4}\protected@file@percent }
+\abx@aux@page{5}{5}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}評価の範囲と論文構成}{5}{section.1.5}\protected@file@percent }
+\abx@aux@cite{0}{tudorlocke2011steps}
+\abx@aux@segm{0}{0}{tudorlocke2011steps}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}ライフログ研究の展開と生活状態モデルの数理的基盤}{7}{chapter.2}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:related-work}{{2}{7}{ライフログ研究の展開と生活状態モデルの数理的基盤}{chapter.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}歩数計測と活動量評価}{7}{section.2.1}\protected@file@percent }
+\abx@aux@page{6}{7}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}身体活動の連続計測}{7}{subsection.2.1.1}\protected@file@percent }
+\abx@aux@cite{0}{tudorlocke2019cadence}
+\abx@aux@segm{0}{0}{tudorlocke2019cadence}
+\abx@aux@cite{0}{ainsworth2011compendium}
+\abx@aux@segm{0}{0}{ainsworth2011compendium}
+\abx@aux@cite{0}{gurrin2014lifelogging}
+\abx@aux@segm{0}{0}{gurrin2014lifelogging}
+\abx@aux@page{7}{8}
+\abx@aux@page{8}{8}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}複数情報源による活動量の文脈化}{8}{subsection.2.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}活動量計測からライフログ研究への発展}{8}{section.2.2}\protected@file@percent }
+\abx@aux@page{9}{8}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}ライフログの観測対象と時間尺度}{8}{subsection.2.2.1}\protected@file@percent }
+\abx@aux@cite{0}{stone1994momentary}
+\abx@aux@segm{0}{0}{stone1994momentary}
+\abx@aux@cite{0}{shiffman2008ema}
+\abx@aux@segm{0}{0}{shiffman2008ema}
+\abx@aux@cite{0}{eisele2022burden}
+\abx@aux@segm{0}{0}{eisele2022burden}
+\abx@aux@cite{0}{tanaka2026fss}
+\abx@aux@segm{0}{0}{tanaka2026fss}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}主観状態の取得と回答負担}{9}{subsection.2.2.2}\protected@file@percent }
+\abx@aux@page{10}{9}
+\abx@aux@page{11}{9}
+\abx@aux@page{12}{9}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}著者の先行検討：生活状態の意味を確認する入力接点と母音省入力インタフェース}{9}{subsection.2.2.3}\protected@file@percent }
+\abx@aux@page{13}{9}
+\abx@aux@cite{0}{tanaka2026fss}
+\abx@aux@segm{0}{0}{tanaka2026fss}
+\abx@aux@cite{0}{tanaka2026fss}
+\abx@aux@segm{0}{0}{tanaka2026fss}
+\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces 理想入力効率と候補生成の主要結果。田中・久保田 \blx@tocontentsinit {0}\autocite {tanaka2026fss}の表3・4を基に再構成。評価対象はいずれも1,378文である。}}{10}{table.2.1}\protected@file@percent }
+\newlabel{tab:fss-results}{{2.1}{10}{理想入力効率と候補生成の主要結果。田中・久保田 \autocite {tanaka2026fss}の表3・4を基に再構成。評価対象はいずれも1,378文である。}{table.2.1}{}}
+\abx@aux@cite{0}{tanaka2026fss}
+\abx@aux@segm{0}{0}{tanaka2026fss}
+\abx@aux@cite{0}{tanaka2026fss}
+\abx@aux@segm{0}{0}{tanaka2026fss}
+\@writefile{lot}{\contentsline {table}{\numberline {2.2}{\ignorespaces 利用者実験の客観指標。田中・久保田 \blx@tocontentsinit {0}\autocite {tanaka2026fss}の表5を基に再構成。5名の正答試行のみの参加者平均である。「—」は母音IMEで共通の比較対象から外した項目を表す。}}{11}{table.2.2}\protected@file@percent }
+\newlabel{tab:fss-user-study}{{2.2}{11}{利用者実験の客観指標。田中・久保田 \autocite {tanaka2026fss}の表5を基に再構成。5名の正答試行のみの参加者平均である。「—」は母音IMEで共通の比較対象から外した項目を表す。}{table.2.2}{}}
+\abx@aux@cite{0}{fritzke1995gng}
+\abx@aux@segm{0}{0}{fritzke1995gng}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}ライフログによる生活状態の表現}{12}{section.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}多時間尺度の状態表現}{12}{subsection.2.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}トポロジカルマッピングの原理}{12}{subsection.2.3.2}\protected@file@percent }
+\abx@aux@page{18}{12}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}従来構成のGrowingMapによる状態空間の成長}{13}{subsection.2.3.3}\protected@file@percent }
+\newlabel{sec:legacy-growingmap}{{2.3.3}{13}{従来構成のGrowingMapによる状態空間の成長}{subsection.2.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces 従来構成のGrowingMapの処理フロー。観測マスクとラベルが一致する代表から勝者を選び、既存ノードの座標別逐次平均更新または閾値による新規ノード生成を行う。図中の矢印は処理順序を示す。状態ノード間の辺には条件を満たす状態変更回数を保存し、構成比は回数から導出する。新方式のDiscoveryMapを示す図ではない。}}{14}{figure.2.1}\protected@file@percent }
+\newlabel{fig:legacy-growingmap}{{2.1}{14}{従来構成のGrowingMapの処理フロー。観測マスクとラベルが一致する代表から勝者を選び、既存ノードの座標別逐次平均更新または閾値による新規ノード生成を行う。図中の矢印は処理順序を示す。状態ノード間の辺には条件を満たす状態変更回数を保存し、構成比は回数から導出する。新方式のDiscoveryMapを示す図ではない。}{figure.2.1}{}}
+\abx@aux@cite{0}{hochreiter1997lstm}
+\abx@aux@segm{0}{0}{hochreiter1997lstm}
+\abx@aux@cite{0}{gers2000forget}
+\abx@aux@segm{0}{0}{gers2000forget}
+\abx@aux@cite{0}{williams1990tbptt}
+\abx@aux@segm{0}{0}{williams1990tbptt}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}時系列推定と個人適応の基盤}{15}{section.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}LSTMのゲートとセル状態}{15}{subsection.2.4.1}\protected@file@percent }
+\abx@aux@page{19}{15}
+\abx@aux@page{20}{15}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}状態保持とTruncated BPTT}{15}{subsection.2.4.2}\protected@file@percent }
+\abx@aux@page{21}{15}
+\abx@aux@cite{0}{devlin2019bert}
+\abx@aux@segm{0}{0}{devlin2019bert}
+\abx@aux@cite{0}{he2022mae}
+\abx@aux@segm{0}{0}{he2022mae}
+\abx@aux@cite{0}{chen2020simclr}
+\abx@aux@segm{0}{0}{chen2020simclr}
+\abx@aux@cite{0}{gelman2007multilevel}
+\abx@aux@segm{0}{0}{gelman2007multilevel}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}自己報告による個人適応}{16}{subsection.2.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.4}自己教師あり学習による表現形成}{16}{subsection.2.4.4}\protected@file@percent }
+\abx@aux@page{22}{16}
+\abx@aux@page{23}{16}
+\abx@aux@page{24}{16}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.5}階層モデルと部分プーリング}{16}{subsection.2.4.5}\protected@file@percent }
+\abx@aux@page{25}{16}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}本人の解釈を保持する情報モデル}{17}{section.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}お天気分とナラティブポートフォリオ}{17}{subsection.2.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}従来構成のPMTTによる情報の分離}{17}{subsection.2.5.2}\protected@file@percent }
+\abx@aux@cite{0}{reimers2019sentencebert}
+\abx@aux@segm{0}{0}{reimers2019sentencebert}
+\abx@aux@cite{0}{wang2020minilm}
+\abx@aux@segm{0}{0}{wang2020minilm}
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}既存研究の課題と本研究の位置付け}{18}{section.2.6}\protected@file@percent }
+\abx@aux@page{26}{18}
+\abx@aux@page{27}{18}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}生活情報の観測と学習データ構築}{19}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:observations}{{3}{19}{生活情報の観測と学習データ構築}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}観測過程と利用可能時刻}{19}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}同意と欠測}{19}{subsection.3.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}時間単位と回答対象}{20}{subsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}キーボード由来の特徴}{20}{section.3.2}\protected@file@percent }
+\newlabel{sec:keyboard-features}{{3.2}{20}{キーボード由来の特徴}{section.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}操作統計と通常との差}{20}{subsection.3.2.1}\protected@file@percent }
+\abx@aux@cite{0}{reimers2019sentencebert}
+\abx@aux@segm{0}{0}{reimers2019sentencebert}
+\abx@aux@cite{0}{wang2020minilm}
+\abx@aux@segm{0}{0}{wang2020minilm}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}ローカル文章表現}{21}{subsection.3.2.2}\protected@file@percent }
+\newlabel{sec:sentence-encoder}{{3.2.2}{21}{ローカル文章表現}{subsection.3.2.2}{}}
+\abx@aux@page{28}{21}
+\abx@aux@page{29}{21}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}任意同意の生活情報}{21}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}歩数・健康指標・予定}{22}{subsection.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}開閉センサと拠点}{22}{subsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}本人回答と教師・注釈の役割}{22}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}場所・行動の確認と命名}{22}{subsection.3.4.1}\protected@file@percent }
+\newlabel{sec:context-confirmations}{{3.4.1}{22}{場所・行動の確認と命名}{subsection.3.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}5尺度と固定活動注釈}{23}{subsection.3.4.2}\protected@file@percent }
+\newlabel{sec:scales-and-activity-labels}{{3.4.2}{23}{5尺度と固定活動注釈}{subsection.3.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}対象時刻と受信時刻}{23}{subsection.3.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}実質問の再表示とプレビュー}{23}{subsection.3.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}特徴系列の構築と保存}{24}{section.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}入力次元と時間整列}{24}{subsection.3.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}欠測と正規化}{25}{subsection.3.5.2}\protected@file@percent }
+\newlabel{sec:missingness-and-normalization}{{3.5.2}{25}{欠測と正規化}{subsection.3.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.3}取得記録・推定・再解析}{25}{subsection.3.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces 従来構成の観測収集、受信時刻を保つ学習データ構築、固定活動・5尺度の推定と質問・提案提示、本人履歴とPMTTの対応。共有三階層LSTMによるPlace・Behaviorの発見を表す図ではない。}}{26}{figure.3.1}\protected@file@percent }
+\newlabel{fig:legacy-system}{{3.1}{26}{従来構成の観測収集、受信時刻を保つ学習データ構築、固定活動・5尺度の推定と質問・提案提示、本人履歴とPMTTの対応。共有三階層LSTMによるPlace・Behaviorの発見を表す図ではない。}{figure.3.1}{}}
+\abx@aux@cite{0}{hochreiter1997lstm}
+\abx@aux@segm{0}{0}{hochreiter1997lstm}
+\abx@aux@cite{0}{gers2000forget}
+\abx@aux@segm{0}{0}{gers2000forget}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}共有三階層LSTMによる生活パターン発見と状態推定}{27}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:model}{{4}{27}{共有三階層LSTMによる生活パターン発見と状態推定}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}推定対象と観測情報}{27}{section.4.1}\protected@file@percent }
+\newlabel{sec:prediction-targets}{{4.1}{27}{推定対象と観測情報}{section.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}三階層の時間表現}{28}{section.4.2}\protected@file@percent }
+\abx@aux@page{30}{28}
+\abx@aux@page{31}{28}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}MicroとMeso}{28}{subsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Macroと融合}{28}{subsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}階層間の状態の受渡し}{29}{subsection.4.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}拠点・行動・主観尺度の出力}{29}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}自己教師あり学習と本人確認の併用}{30}{section.4.4}\protected@file@percent }
+\newlabel{sec:joint-learning}{{4.4}{30}{自己教師あり学習と本人確認の併用}{section.4.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}マスク再構成と将来予測}{30}{subsection.4.4.1}\protected@file@percent }
+\abx@aux@cite{0}{huber1964robust}
+\abx@aux@segm{0}{0}{huber1964robust}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}本人確認による関係学習}{31}{subsection.4.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}尺度損失と全体損失}{31}{subsection.4.4.3}\protected@file@percent }
+\newlabel{sec:scale-and-total-loss}{{4.4.3}{31}{尺度損失と全体損失}{subsection.4.4.3}{}}
+\abx@aux@page{32}{31}
+\abx@aux@cite{0}{loshchilov2019adamw}
+\abx@aux@segm{0}{0}{loshchilov2019adamw}
+\abx@aux@page{33}{32}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}カテゴリ数を固定しないパターン発見}{32}{section.4.5}\protected@file@percent }
+\newlabel{sec:pattern-discovery}{{4.5}{32}{カテゴリ数を固定しないパターン発見}{section.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}プロトタイプ割当てと更新アルゴリズム}{32}{subsection.4.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}時間遷移グラフと推論時の固定}{34}{subsection.4.5.2}\protected@file@percent }
+\newlabel{sec:transition-graph}{{4.5.2}{34}{時間遷移グラフと推論時の固定}{subsection.4.5.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}意味付けと候補・推定の区別}{34}{section.4.6}\protected@file@percent }
+\newlabel{sec:confirmation-and-estimation}{{4.6}{34}{意味付けと候補・推定の区別}{section.4.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}検証・運用と従来構成の位置付け}{35}{section.4.7}\protected@file@percent }
+\newlabel{sec:legacy-and-deployment}{{4.7}{35}{検証・運用と従来構成の位置付け}{section.4.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}時系列分割と候補モデルの検証}{35}{subsection.4.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}方式選択と保存・提示}{35}{subsection.4.7.2}\protected@file@percent }
+\newlabel{sec:runtime-selection}{{4.7.2}{35}{方式選択と保存・提示}{subsection.4.7.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 固定活動分類を持つ従来HierarchicalLSTMの図である。現在出力の「活動分類」は新方式には存在しない。下段の状態保持・TBPTTは従来の比較設計の注記であり、運用実装はいずれの方式でも系列ごとに初期化する。本図を新方式のPlace/Behavior射影と同時学習の検証資料として用いない。}}{36}{figure.4.1}\protected@file@percent }
+\newlabel{fig:legacy-lstm}{{4.1}{36}{固定活動分類を持つ従来HierarchicalLSTMの図である。現在出力の「活動分類」は新方式には存在しない。下段の状態保持・TBPTTは従来の比較設計の注記であり、運用実装はいずれの方式でも系列ごとに初期化する。本図を新方式のPlace/Behavior射影と同時学習の検証資料として用いない。}{figure.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}従来構成：固定活動分類と個人履歴条件付け}{36}{subsection.4.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}従来構成：生観測GrowingMapと状態変更率}{37}{subsection.4.7.4}\protected@file@percent }
+\newlabel{sec:legacy-transition-ratios}{{4.7.4}{37}{従来構成：生観測GrowingMapと状態変更率}{subsection.4.7.4}{}}
+\abx@aux@cite{0}{fritzke1995gng}
+\abx@aux@segm{0}{0}{fritzke1995gng}
+\abx@aux@cite{0}{devlin2019bert}
+\abx@aux@segm{0}{0}{devlin2019bert}
+\abx@aux@cite{0}{he2022mae}
+\abx@aux@segm{0}{0}{he2022mae}
+\abx@aux@cite{0}{gelman2007multilevel}
+\abx@aux@segm{0}{0}{gelman2007multilevel}
+\abx@aux@page{34}{38}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.5}従来構成・比較計画：SSL、部分プーリングと逐次適応}{38}{subsection.4.7.5}\protected@file@percent }
+\newlabel{sec:legacy-ssl-and-adaptation}{{4.7.5}{38}{従来構成・比較計画：SSL、部分プーリングと逐次適応}{subsection.4.7.5}{}}
+\abx@aux@page{35}{38}
+\abx@aux@page{36}{38}
+\abx@aux@page{37}{38}
+\abx@aux@cite{0}{williams1990tbptt}
+\abx@aux@segm{0}{0}{williams1990tbptt}
+\abx@aux@page{38}{40}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.6}従来構成：ベースライン暫定推定と切替}{41}{subsection.4.7.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.7}従来構成：状態内歩数、支援提案とPMTT}{41}{subsection.4.7.7}\protected@file@percent }
+\abx@aux@cite{0}{ainsworth2011compendium}
+\abx@aux@segm{0}{0}{ainsworth2011compendium}
+\abx@aux@cite{0}{tudorlocke2019cadence}
+\abx@aux@segm{0}{0}{tudorlocke2019cadence}
+\abx@aux@page{39}{42}
+\abx@aux@page{40}{42}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}探索的予備研究の評価計画と考察観点}{44}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:evaluation}{{5}{44}{探索的予備研究の評価計画と考察観点}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}目的と実験条件}{44}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}取得の成立と回答負担}{44}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}観測被覆と系列構築}{44}{subsection.5.2.1}\protected@file@percent }
+\abx@aux@cite{0}{shiffman2008ema}
+\abx@aux@segm{0}{0}{shiffman2008ema}
+\abx@aux@cite{0}{eisele2022burden}
+\abx@aux@segm{0}{0}{eisele2022burden}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}質問・本人確認}{45}{subsection.5.2.2}\protected@file@percent }
+\abx@aux@page{41}{45}
+\abx@aux@page{42}{45}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}情報漏洩を防ぐ時間順分割}{45}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}拠点と行動パターンの評価}{45}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}既知IDの同定と表示範囲}{45}{subsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}未知発見・過分割・混合}{46}{subsection.5.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}PlaceとBehaviorの分離}{46}{subsection.5.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}現在・日次5尺度の評価}{46}{section.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}比較条件とアブレーション}{47}{section.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.7}解釈の範囲}{48}{section.5.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}結論}{49}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:conclusion}{{6}{49}{結論}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}本研究の総括}{49}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}数理モデルと実装の到達点}{49}{section.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}探索的評価の位置付け}{49}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}今後の課題}{49}{section.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{謝辞}{51}{chapter*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{参考文献}{52}{chapter*.3}\protected@file@percent }
+\abx@aux@page{43}{52}
+\abx@aux@page{44}{52}
+\abx@aux@page{45}{52}
+\abx@aux@page{46}{52}
+\abx@aux@page{47}{52}
+\abx@aux@page{48}{52}
+\abx@aux@page{49}{52}
+\abx@aux@page{50}{52}
+\abx@aux@page{51}{52}
+\abx@aux@page{52}{52}
+\abx@aux@page{53}{52}
+\abx@aux@page{54}{52}
+\abx@aux@page{55}{52}
+\abx@aux@page{56}{52}
+\abx@aux@page{57}{52}
+\abx@aux@page{58}{53}
+\abx@aux@page{59}{53}
+\abx@aux@page{60}{53}
+\abx@aux@page{61}{53}
+\abx@aux@page{62}{53}
+\abx@aux@read@bbl@mdfivesum{52D8E91BF3B71F332AAFC3F8CDB92F1A}
+\abx@aux@defaultrefcontext{0}{ainsworth2011compendium}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{chen2020simclr}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{devlin2019bert}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{eisele2022burden}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{fritzke1995gng}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{gelman2007multilevel}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{gers2000forget}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{gurrin2014lifelogging}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{he2022mae}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{hochreiter1997lstm}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{huber1964robust}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{loshchilov2019adamw}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{reimers2019sentencebert}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{shiffman2008ema}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{stone1994momentary}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{tudorlocke2019cadence}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{tudorlocke2011steps}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{wang2020minilm}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{williams1990tbptt}{nyt/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{tanaka2026fss}{nyt/global//global/global/global}
+\gdef \@abspage@last{54}
