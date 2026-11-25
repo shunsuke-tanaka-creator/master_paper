@@ -2,9 +2,10 @@
 
 \usepackage[margin=25mm]{geometry}
 \usepackage{fontspec}
-\usepackage{xeCJK}
-\setCJKmainfont{Hiragino Mincho ProN} % 追加：日本語フォントをヒラギノ明朝に指定
-\setCJKmonofont{Hiragino Kaku Gothic ProN}
+\usepackage[match,scale=1]{luatexja-fontspec} % 追加：和文の書体連動と現行サイズを維持
+\setmainjfont{Hiragino Mincho ProN} % 追加：和文本文の明朝体
+\setsansjfont{Hiragino Kaku Gothic ProN} % 追加：和文サンセリフを明示
+\setmonojfont{Hiragino Kaku Gothic ProN} % 追加：和文等幅用の書体を維持
 \usepackage{amsmath,amssymb,mathrsfs}
 \usepackage{graphicx}
 \usepackage{titlesec}
