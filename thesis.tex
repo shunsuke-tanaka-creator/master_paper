@@ -3,8 +3,8 @@
 \usepackage[margin=25mm]{geometry}
 \usepackage{fontspec}
 \usepackage{xeCJK}
-\setCJKmainfont{Noto Serif CJK JP}
-
+\setCJKmainfont{Hiragino Mincho ProN} % 追加：日本語フォントをヒラギノ明朝に指定
+\setCJKmonofont{Hiragino Kaku Gothic ProN}
 \usepackage{amsmath,amssymb,mathrsfs}
 \usepackage{graphicx}
 \usepackage{titlesec}
@@ -25,8 +25,8 @@
 \newcommand{\thesisauthor}{田中 峻介}
 \title{\thesistitle}
 \author{\thesisauthor\\[0.75em]
-  \normalsize 東京都立大学大学院 システムデザイン研究科\\
-  \normalsize 機械システム工学域博士前期課程}
+\normalsize 東京都立大学大学院 システムデザイン研究科\\
+\normalsize 機械システム工学域博士前期課程}
 \date{2026年11月24日}
 \hypersetup{pdftitle={\thesistitle},pdfauthor={\thesisauthor}}
 
@@ -46,3 +46,4 @@
 
 \printbibliography[heading=bibintoc,title={参考文献}]
 \end{document}
+

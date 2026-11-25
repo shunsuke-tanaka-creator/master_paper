@@ -1,0 +1,835 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{ainsworth2011compendium}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=43fd64520a95a42b86918133605baed1}{%
+           family={Ainsworth},
+           familyi={A\bibinitperiod},
+           given={Barbara\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcef5d5105e6af3b760d15d890a63b9d}{%
+           family={Haskell},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima L.},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f3ef26ac4acdb51deb1281aa8bc2a1f}{%
+           family={Herrmann},
+           familyi={H\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9fc79e63ceb3b4dca1df612e097b9655}
+      \strng{fullhash}{9fc79e63ceb3b4dca1df612e097b9655}
+      \strng{fullhashraw}{9fc79e63ceb3b4dca1df612e097b9655}
+      \strng{bibnamehash}{9fc79e63ceb3b4dca1df612e097b9655}
+      \strng{authorbibnamehash}{9fc79e63ceb3b4dca1df612e097b9655}
+      \strng{authornamehash}{9fc79e63ceb3b4dca1df612e097b9655}
+      \strng{authorfullhash}{9fc79e63ceb3b4dca1df612e097b9655}
+      \strng{authorfullhashraw}{9fc79e63ceb3b4dca1df612e097b9655}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medicine \& Science in Sports \& Exercise}
+      \field{title}{2011 Compendium of Physical Activities: A Second Update of Codes and {MET} Values}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1249/MSS.0b013e31821ece12
+      \endverb
+    \endentry
+    \entry{chen2020simclr}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b240c653612b8157a41dd4282347398a}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7fc0edf04cce351dda404579ede3d0d1}{%
+           family={Kornblith},
+           familyi={K\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e34c5aa67281924804d54d88e58ca38a}{%
+           family={Norouzi},
+           familyi={N\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8750ccdb2a4cf14d2655face1ce016}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dc8ec697e4145870100b5dc50b300b9}
+      \strng{fullhash}{584a9ff5d36bb27e8e9ed9ee39cb795e}
+      \strng{fullhashraw}{584a9ff5d36bb27e8e9ed9ee39cb795e}
+      \strng{bibnamehash}{584a9ff5d36bb27e8e9ed9ee39cb795e}
+      \strng{authorbibnamehash}{584a9ff5d36bb27e8e9ed9ee39cb795e}
+      \strng{authornamehash}{3dc8ec697e4145870100b5dc50b300b9}
+      \strng{authorfullhash}{584a9ff5d36bb27e8e9ed9ee39cb795e}
+      \strng{authorfullhashraw}{584a9ff5d36bb27e8e9ed9ee39cb795e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 37th International Conference on Machine Learning}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{A Simple Framework for Contrastive Learning of Visual Representations}
+      \field{year}{2020}
+    \endentry
+    \entry{devlin2019bert}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{fullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorfullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies}
+      \field{title}{{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.18653/v1/N19-1423
+      \endverb
+    \endentry
+    \entry{eisele2022burden}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=55173a72de7335dfeb59a02077a4f6c7}{%
+           family={Eisele},
+           familyi={E\bibinitperiod},
+           given={Gudrun},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1aee719762ad35a5b143ef1cb30c029}{%
+           family={Vachon},
+           familyi={V\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ff7d07c894ee0ff188caff9262668c9}{%
+           family={Lafit},
+           familyi={L\bibinitperiod},
+           given={Ginette},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2863d27ddc4b78a7a0496654b8e15822}{%
+           family={Kuppens},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee7c3b0e309347ea7d1067199cca1ad9}{%
+           family={Houben},
+           familyi={H\bibinitperiod},
+           given={Marlies},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2899eba77b41573aeb48c472be363bf}{%
+           family={Myin-Germeys},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Inez},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fb2046b93076a185201e54f9ef91d63}{%
+           family={Viechtbauer},
+           familyi={V\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f021900484ca56ae6a8f4b9361a5eb01}
+      \strng{fullhash}{24f472d71f31247c028d5daaab69f750}
+      \strng{fullhashraw}{24f472d71f31247c028d5daaab69f750}
+      \strng{bibnamehash}{f021900484ca56ae6a8f4b9361a5eb01}
+      \strng{authorbibnamehash}{f021900484ca56ae6a8f4b9361a5eb01}
+      \strng{authornamehash}{f021900484ca56ae6a8f4b9361a5eb01}
+      \strng{authorfullhash}{24f472d71f31247c028d5daaab69f750}
+      \strng{authorfullhashraw}{24f472d71f31247c028d5daaab69f750}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Assessment}
+      \field{title}{The Effects of Sampling Frequency and Questionnaire Length on Perceived Burden, Compliance, and Careless Responding in Experience Sampling Data in a Student Population}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1177/1073191120957102
+      \endverb
+    \endentry
+    \entry{fritzke1995gng}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a765c542f0e6fe53346cd4dd3525c9a3}{%
+           family={Fritzke},
+           familyi={F\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{a765c542f0e6fe53346cd4dd3525c9a3}
+      \strng{fullhash}{a765c542f0e6fe53346cd4dd3525c9a3}
+      \strng{fullhashraw}{a765c542f0e6fe53346cd4dd3525c9a3}
+      \strng{bibnamehash}{a765c542f0e6fe53346cd4dd3525c9a3}
+      \strng{authorbibnamehash}{a765c542f0e6fe53346cd4dd3525c9a3}
+      \strng{authornamehash}{a765c542f0e6fe53346cd4dd3525c9a3}
+      \strng{authorfullhash}{a765c542f0e6fe53346cd4dd3525c9a3}
+      \strng{authorfullhashraw}{a765c542f0e6fe53346cd4dd3525c9a3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 7}
+      \field{title}{A Growing Neural Gas Network Learns Topologies}
+      \field{year}{1995}
+    \endentry
+    \entry{gelman2007multilevel}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fd6540b91678ae8d3f51574305d2455}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{fullhash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{fullhashraw}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{bibnamehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authorbibnamehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authornamehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authorfullhash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authorfullhashraw}{602df721bcd10fe1eca95cb5554d134b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data Analysis Using Regression and Multilevel/Hierarchical Models}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1017/CBO9780511790942
+      \endverb
+    \endentry
+    \entry{gers2000forget}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=805aa8bd8070a9c87d87ba3588da7bab}{%
+           family={Gers},
+           familyi={G\bibinitperiod},
+           given={Felix\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdd8ffd78b64a16f8c61071ba7af7225}{%
+           family={Cummins},
+           familyi={C\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f90ec3965a97856f5e2b784e9481582a}
+      \strng{fullhash}{f90ec3965a97856f5e2b784e9481582a}
+      \strng{fullhashraw}{f90ec3965a97856f5e2b784e9481582a}
+      \strng{bibnamehash}{f90ec3965a97856f5e2b784e9481582a}
+      \strng{authorbibnamehash}{f90ec3965a97856f5e2b784e9481582a}
+      \strng{authornamehash}{f90ec3965a97856f5e2b784e9481582a}
+      \strng{authorfullhash}{f90ec3965a97856f5e2b784e9481582a}
+      \strng{authorfullhashraw}{f90ec3965a97856f5e2b784e9481582a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computation}
+      \field{title}{Learning to Forget: Continual Prediction with {LSTM}}
+      \field{year}{2000}
+      \verb{doi}
+      \verb 10.1162/089976600300015015
+      \endverb
+    \endentry
+    \entry{gurrin2014lifelogging}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8ed74dc896d130cfa23294250eb527b0}{%
+           family={Gurrin},
+           familyi={G\bibinitperiod},
+           given={Cathal},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64e8f041696dfed369345414491cfe33}{%
+           family={Smeaton},
+           familyi={S\bibinitperiod},
+           given={Alan\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a9a85defdba5a11ba9d383bbc019207}{%
+           family={Doherty},
+           familyi={D\bibinitperiod},
+           given={Aiden\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d2cf80f38c97281d1cfa93734d91f79}
+      \strng{fullhash}{0d2cf80f38c97281d1cfa93734d91f79}
+      \strng{fullhashraw}{0d2cf80f38c97281d1cfa93734d91f79}
+      \strng{bibnamehash}{0d2cf80f38c97281d1cfa93734d91f79}
+      \strng{authorbibnamehash}{0d2cf80f38c97281d1cfa93734d91f79}
+      \strng{authornamehash}{0d2cf80f38c97281d1cfa93734d91f79}
+      \strng{authorfullhash}{0d2cf80f38c97281d1cfa93734d91f79}
+      \strng{authorfullhashraw}{0d2cf80f38c97281d1cfa93734d91f79}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Foundations and Trends in Information Retrieval}
+      \field{title}{Lifelogging: Personal Big Data}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1561/1500000033
+      \endverb
+    \endentry
+    \entry{he2022mae}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce10870c303bf2f78994acd2df305b39}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xinlei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=843b6293b24d49cdfdcda48e1ccd7eb3}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Saining},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46e2e0b282bd98dcc736b344f4c7274f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yanghao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecd149fdcb3e0503881d49e545744c3d}{%
+           family={Dollár},
+           familyi={D\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{fullhash}{720293b27fe84a23031231f283c72cd1}
+      \strng{fullhashraw}{720293b27fe84a23031231f283c72cd1}
+      \strng{bibnamehash}{720293b27fe84a23031231f283c72cd1}
+      \strng{authorbibnamehash}{720293b27fe84a23031231f283c72cd1}
+      \strng{authornamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authorfullhash}{720293b27fe84a23031231f283c72cd1}
+      \strng{authorfullhashraw}{720293b27fe84a23031231f283c72cd1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Masked Autoencoders Are Scalable Vision Learners}
+      \field{year}{2022}
+    \endentry
+    \entry{hochreiter1997lstm}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=41b31e29fb2bdbf9f5c9c1b0d5b3e815}{%
+           family={Hochreiter},
+           familyi={H\bibinitperiod},
+           given={Sepp},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{fullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{fullhashraw}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{bibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorbibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authornamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorfullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorfullhashraw}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computation}
+      \field{title}{Long Short-Term Memory}
+      \field{year}{1997}
+      \verb{doi}
+      \verb 10.1162/neco.1997.9.8.1735
+      \endverb
+    \endentry
+    \entry{huber1964robust}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2e7489c001c33b64b64d65458065bd5c}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2e7489c001c33b64b64d65458065bd5c}
+      \strng{fullhash}{2e7489c001c33b64b64d65458065bd5c}
+      \strng{fullhashraw}{2e7489c001c33b64b64d65458065bd5c}
+      \strng{bibnamehash}{2e7489c001c33b64b64d65458065bd5c}
+      \strng{authorbibnamehash}{2e7489c001c33b64b64d65458065bd5c}
+      \strng{authornamehash}{2e7489c001c33b64b64d65458065bd5c}
+      \strng{authorfullhash}{2e7489c001c33b64b64d65458065bd5c}
+      \strng{authorfullhashraw}{2e7489c001c33b64b64d65458065bd5c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annals of Mathematical Statistics}
+      \field{title}{Robust Estimation of a Location Parameter}
+      \field{year}{1964}
+      \verb{doi}
+      \verb 10.1214/aoms/1177703732
+      \endverb
+    \endentry
+    \entry{loshchilov2019adamw}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1241b8181104f1917578d4c7f9b323b6}{%
+           family={Loshchilov},
+           familyi={L\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=528d4af87fd2ecf5fb8a22db913ce088}{%
+           family={Hutter},
+           familyi={H\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{fullhash}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{fullhashraw}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{bibnamehash}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{authorbibnamehash}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{authornamehash}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{authorfullhash}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{authorfullhashraw}{b308ccb07134a06ec3735828ac4f15e2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations}
+      \field{title}{Decoupled Weight Decay Regularization}
+      \field{year}{2019}
+    \endentry
+    \entry{reimers2019sentencebert}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=da9947b27b0d1c4c912e2b391426d443}{%
+           family={Reimers},
+           familyi={R\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea70b44be1920f6e8c379706bc7d047a}{%
+           family={Gurevych},
+           familyi={G\bibinitperiod},
+           given={Iryna},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{fullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{fullhashraw}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{bibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorbibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authornamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorfullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorfullhashraw}{2466af6376c9c5e3658dcc6692351f3e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing}
+      \field{title}{Sentence-{BERT}: Sentence Embeddings using Siamese {BERT}-Networks}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.18653/v1/D19-1410
+      \endverb
+    \endentry
+    \entry{shiffman2008ema}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2b37d9ef3fde25d93ff42d77cc4893cd}{%
+           family={Shiffman},
+           familyi={S\bibinitperiod},
+           given={Saul},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=745d44666fe86a0a503ec1fe768616b4}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={Arthur\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7911d154d18dac0e1518b01e1f4503bc}{%
+           family={Hufford},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{24bcc40f1174892b216540e3c6524137}
+      \strng{fullhash}{24bcc40f1174892b216540e3c6524137}
+      \strng{fullhashraw}{24bcc40f1174892b216540e3c6524137}
+      \strng{bibnamehash}{24bcc40f1174892b216540e3c6524137}
+      \strng{authorbibnamehash}{24bcc40f1174892b216540e3c6524137}
+      \strng{authornamehash}{24bcc40f1174892b216540e3c6524137}
+      \strng{authorfullhash}{24bcc40f1174892b216540e3c6524137}
+      \strng{authorfullhashraw}{24bcc40f1174892b216540e3c6524137}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Clinical Psychology}
+      \field{title}{Ecological Momentary Assessment}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.1146/annurev.clinpsy.3.022806.091415
+      \endverb
+    \endentry
+    \entry{stone1994momentary}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=745d44666fe86a0a503ec1fe768616b4}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={Arthur\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b37d9ef3fde25d93ff42d77cc4893cd}{%
+           family={Shiffman},
+           familyi={S\bibinitperiod},
+           given={Saul},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1f8f9939f6c615507975ddf1d25a2fd7}
+      \strng{fullhash}{1f8f9939f6c615507975ddf1d25a2fd7}
+      \strng{fullhashraw}{1f8f9939f6c615507975ddf1d25a2fd7}
+      \strng{bibnamehash}{1f8f9939f6c615507975ddf1d25a2fd7}
+      \strng{authorbibnamehash}{1f8f9939f6c615507975ddf1d25a2fd7}
+      \strng{authornamehash}{1f8f9939f6c615507975ddf1d25a2fd7}
+      \strng{authorfullhash}{1f8f9939f6c615507975ddf1d25a2fd7}
+      \strng{authorfullhashraw}{1f8f9939f6c615507975ddf1d25a2fd7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Behavioral Medicine}
+      \field{title}{Ecological Momentary Assessment ({EMA}) in Behavioral Medicine}
+      \field{year}{1994}
+    \endentry
+    \entry{tudorlocke2019cadence}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cc54c9a501f183e38042a15a8d840a21}{%
+           family={Tudor-Locke},
+           familyi={T\bibinithyphendelim L\bibinitperiod},
+           given={Catrine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e27056eeda2c28a8813f95fb9ec8503c}{%
+           family={Aguiar},
+           familyi={A\bibinitperiod},
+           given={Elroy\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bd6c6e3d56e97ca67624f7e72cc4edc}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Hailey},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{657de4356fa2b791820adc6787dcf56a}
+      \strng{fullhash}{657de4356fa2b791820adc6787dcf56a}
+      \strng{fullhashraw}{657de4356fa2b791820adc6787dcf56a}
+      \strng{bibnamehash}{657de4356fa2b791820adc6787dcf56a}
+      \strng{authorbibnamehash}{657de4356fa2b791820adc6787dcf56a}
+      \strng{authornamehash}{657de4356fa2b791820adc6787dcf56a}
+      \strng{authorfullhash}{657de4356fa2b791820adc6787dcf56a}
+      \strng{authorfullhashraw}{657de4356fa2b791820adc6787dcf56a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Behavioral Nutrition and Physical Activity}
+      \field{title}{Walking Cadence (Steps/Min) and Intensity in 21--40 Year Olds: {CADENCE}-Adults}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1186/s12966-019-0769-6
+      \endverb
+    \endentry
+    \entry{tudorlocke2011steps}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cc54c9a501f183e38042a15a8d840a21}{%
+           family={Tudor-Locke},
+           familyi={T\bibinithyphendelim L\bibinitperiod},
+           given={Catrine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8063f1f39563d7a06ac829af554ce4b9}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={Cora\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bca40ef7a6022ff4a328cd5b5fafc8ec}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Wendy\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{048781edee3322e19cbfe1d0b5a96986}
+      \strng{fullhash}{048781edee3322e19cbfe1d0b5a96986}
+      \strng{fullhashraw}{048781edee3322e19cbfe1d0b5a96986}
+      \strng{bibnamehash}{048781edee3322e19cbfe1d0b5a96986}
+      \strng{authorbibnamehash}{048781edee3322e19cbfe1d0b5a96986}
+      \strng{authornamehash}{048781edee3322e19cbfe1d0b5a96986}
+      \strng{authorfullhash}{048781edee3322e19cbfe1d0b5a96986}
+      \strng{authorfullhashraw}{048781edee3322e19cbfe1d0b5a96986}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Behavioral Nutrition and Physical Activity}
+      \field{title}{How Many Steps/Day Are Enough? For Adults}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1186/1479-5868-8-79
+      \endverb
+    \endentry
+    \entry{wang2020minilm}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=82baeb93c6572095f63e51c66a00d89f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenhui},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3349e5c2b2661f3b497e9f014ffcf7d}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23b85b8dc8040cdb61538ffc8420256a}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Hangbo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a44174a97a52d8b64289ef831cb1ac37}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a72f304d2bc33c9c92301f2dc3063b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79210bdf9ba07d1dbbf3fc8f584c3a6b}
+      \strng{fullhash}{32f35cc4b34267cacecdfa41e7735d88}
+      \strng{fullhashraw}{32f35cc4b34267cacecdfa41e7735d88}
+      \strng{bibnamehash}{32f35cc4b34267cacecdfa41e7735d88}
+      \strng{authorbibnamehash}{32f35cc4b34267cacecdfa41e7735d88}
+      \strng{authornamehash}{79210bdf9ba07d1dbbf3fc8f584c3a6b}
+      \strng{authorfullhash}{32f35cc4b34267cacecdfa41e7735d88}
+      \strng{authorfullhashraw}{32f35cc4b34267cacecdfa41e7735d88}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 33}
+      \field{title}{{MiniLM}: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers}
+      \field{year}{2020}
+    \endentry
+    \entry{williams1990tbptt}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6cbc29ad7fd57ffdb9ed4728418fd988}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ddfa54d8db588795328314e7c3355a4}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d3eed24134d0e1f901594d43794629f}
+      \strng{fullhash}{1d3eed24134d0e1f901594d43794629f}
+      \strng{fullhashraw}{1d3eed24134d0e1f901594d43794629f}
+      \strng{bibnamehash}{1d3eed24134d0e1f901594d43794629f}
+      \strng{authorbibnamehash}{1d3eed24134d0e1f901594d43794629f}
+      \strng{authornamehash}{1d3eed24134d0e1f901594d43794629f}
+      \strng{authorfullhash}{1d3eed24134d0e1f901594d43794629f}
+      \strng{authorfullhashraw}{1d3eed24134d0e1f901594d43794629f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computation}
+      \field{title}{An Efficient Gradient-Based Algorithm for On-Line Training of Recurrent Network Trajectories}
+      \field{year}{1990}
+      \verb{doi}
+      \verb 10.1162/neco.1990.2.4.490
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
